@@ -16,11 +16,13 @@ http://dirtypcbs.com/view.php?share=28380&accesskey=9c851266aeee43fccca2846767b0
 
 * Libraries
 
-The terriblefire.lbr file contains the following parts
+The terriblefire.lbr file contains the following parts :-
 
 XC9572XL-VQ64 (unverfied)
+
 XC95144XL-TQ100 (unverified)
-MC68SEC0000-QFP64 (unverfied)
+
+MC68SEC000-QFP64 (unverfied)
 
 These parts are free to use but come with absolutely NO WARRANTY and in many cases have not been verified. 
 
