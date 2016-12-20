@@ -23,3 +23,9 @@ XC95144XL-TQ100 (unverified)
 MC68SEC0000-QFP64 (unverfied)
 
 These parts are free to use but come with absolutely NO WARRANTY and in many cases have not been verified. 
+
+* Tools
+
+The following GPL tools are available.
+
+54600.py - (Captures the output of a 56400 series scope and writes the output to a VCD file).
