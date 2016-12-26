@@ -102,10 +102,10 @@
 <library name="Amiga">
 <packages>
 <package name="CD32_EXPANSION_182_MCA">
-<wire x1="-62.23" y1="5.08" x2="-62.23" y2="-5.08" width="0.127" layer="20"/>
-<wire x1="-62.23" y1="-5.08" x2="62.23" y2="-5.08" width="0.127" layer="20"/>
-<wire x1="62.23" y1="-5.08" x2="62.23" y2="5.08" width="0.127" layer="20"/>
-<wire x1="62.23" y1="5.08" x2="-62.23" y2="5.08" width="0.127" layer="20"/>
+<wire x1="-62.23" y1="5.08" x2="-62.23" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-62.23" y1="-5.08" x2="62.23" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="62.23" y1="-5.08" x2="62.23" y2="5.08" width="0.127" layer="21"/>
+<wire x1="62.23" y1="5.08" x2="-62.23" y2="5.08" width="0.127" layer="21"/>
 <pad name="P$2" x="59.055" y="3.81" drill="0.8" rot="R90"/>
 <pad name="P$4" x="57.785" y="1.27" drill="0.8" rot="R90"/>
 <pad name="P$1" x="59.055" y="-1.27" drill="0.8" rot="R90"/>
@@ -715,8 +715,2192 @@
 </segment>
 </bus>
 </busses>
-
-<nets><net class="0" name="+12V@2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="+12V@2" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="86.36" y2="86.36" /><label layer="95" size="1.778" x="163.83" y="86.36" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="+12V@2" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="86.36" y2="86.36" /><label layer="95" size="1.778" x="367.03" y="86.36" /></segment></net><net class="0" name="+12V@3"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="+12V@3" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="35.56" y2="35.56" /><label layer="95" size="1.778" x="163.83" y="35.56" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="+12V@3" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="35.56" y2="35.56" /><label layer="95" size="1.778" x="367.03" y="35.56" /></segment></net><net class="0" name="RIGHT_EXT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="RIGHT_EXT" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="30.48" y2="30.48" /><label layer="95" size="1.778" x="39.37" y="30.48" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="RIGHT_EXT" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="30.48" y2="30.48" /><label layer="95" size="1.778" x="242.57" y="30.48" /></segment></net><net class="0" name="VGND@1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VGND@1" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="55.88" y2="55.88" /><label layer="95" size="1.778" x="39.37" y="55.88" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VGND@1" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="55.88" y2="55.88" /><label layer="95" size="1.778" x="242.57" y="55.88" /></segment></net><net class="0" name="_HLT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_HLT" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="152.40" y2="152.40" /><label layer="95" size="1.778" x="163.83" y="152.40" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_HLT" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="152.40" y2="152.40" /><label layer="95" size="1.778" x="367.03" y="152.40" /></segment></net><net class="0" name="VGND@3"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VGND@3" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="55.88" y2="55.88" /><label layer="95" size="1.778" x="163.83" y="55.88" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VGND@3" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="55.88" y2="55.88" /><label layer="95" size="1.778" x="367.03" y="55.88" /></segment></net><net class="0" name="VGND@2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VGND@2" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="45.72" y2="45.72" /><label layer="95" size="1.778" x="39.37" y="45.72" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VGND@2" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="45.72" y2="45.72" /><label layer="95" size="1.778" x="242.57" y="45.72" /></segment></net><net class="0" name="VGND@4"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VGND@4" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="45.72" y2="45.72" /><label layer="95" size="1.778" x="163.83" y="45.72" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VGND@4" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="45.72" y2="45.72" /><label layer="95" size="1.778" x="367.03" y="45.72" /></segment></net><net class="0" name="_FIRE1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_FIRE1" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="104.14" y2="104.14" /><label layer="95" size="1.778" x="163.83" y="104.14" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_FIRE1" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="104.14" y2="104.14" /><label layer="95" size="1.778" x="367.03" y="104.14" /></segment></net><net class="0" name="_FIRE0"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_FIRE0" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="104.14" y2="104.14" /><label layer="95" size="1.778" x="39.37" y="104.14" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_FIRE0" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="104.14" y2="104.14" /><label layer="95" size="1.778" x="242.57" y="104.14" /></segment></net><net class="0" name="D10"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D10" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="182.88" y2="182.88" /><label layer="95" size="1.778" x="163.83" y="182.88" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D10" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="182.88" y2="182.88" /><label layer="95" size="1.778" x="367.03" y="182.88" /></segment></net><net class="0" name="_RXD"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_RXD" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="99.06" y2="99.06" /><label layer="95" size="1.778" x="39.37" y="99.06" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_RXD" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="99.06" y2="99.06" /><label layer="95" size="1.778" x="242.57" y="99.06" /></segment></net><net class="0" name="+12V@1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="+12V@1" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="88.90" y2="88.90" /><label layer="95" size="1.778" x="163.83" y="88.90" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="+12V@1" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="88.90" y2="88.90" /><label layer="95" size="1.778" x="367.03" y="88.90" /></segment></net><net class="0" name="_KB_CLOCK"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_KB_CLOCK" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="106.68" y2="106.68" /><label layer="95" size="1.778" x="39.37" y="106.68" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_KB_CLOCK" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="106.68" y2="106.68" /><label layer="95" size="1.778" x="242.57" y="106.68" /></segment></net><net class="0" name="_INT2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_INT2" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="109.22" y2="109.22" /><label layer="95" size="1.778" x="39.37" y="109.22" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_INT2" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="109.22" y2="109.22" /><label layer="95" size="1.778" x="242.57" y="109.22" /></segment></net><net class="0" name="_INT6"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_INT6" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="109.22" y2="109.22" /><label layer="95" size="1.778" x="163.83" y="109.22" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_INT6" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="109.22" y2="109.22" /><label layer="95" size="1.778" x="367.03" y="109.22" /></segment></net><net class="0" name="NC@11"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@11" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="114.30" y2="114.30" /><label layer="95" size="1.778" x="163.83" y="114.30" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@11" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="114.30" y2="114.30" /><label layer="95" size="1.778" x="367.03" y="114.30" /></segment></net><net class="0" name="A4"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A4" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="223.52" y2="223.52" /><label layer="95" size="1.778" x="163.83" y="223.52" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A4" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="223.52" y2="223.52" /><label layer="95" size="1.778" x="367.03" y="223.52" /></segment></net><net class="0" name="LEFT_EXT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="LEFT_EXT" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="33.02" y2="33.02" /><label layer="95" size="1.778" x="39.37" y="33.02" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="LEFT_EXT" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="33.02" y2="33.02" /><label layer="95" size="1.778" x="242.57" y="33.02" /></segment></net><net class="0" name="_DKWD"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_DKWD" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="96.52" y2="96.52" /><label layer="95" size="1.778" x="163.83" y="96.52" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_DKWD" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="96.52" y2="96.52" /><label layer="95" size="1.778" x="367.03" y="96.52" /></segment></net><net class="0" name="XCLK"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="XCLK" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="40.64" y2="40.64" /><label layer="95" size="1.778" x="39.37" y="40.64" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="XCLK" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="40.64" y2="40.64" /><label layer="95" size="1.778" x="242.57" y="40.64" /></segment></net><net class="0" name="NC@12"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@12" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="91.44" y2="91.44" /><label layer="95" size="1.778" x="163.83" y="91.44" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@12" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="91.44" y2="91.44" /><label layer="95" size="1.778" x="367.03" y="91.44" /></segment></net><net class="0" name="_AVEC"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_AVEC" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="139.70" y2="139.70" /><label layer="95" size="1.778" x="163.83" y="139.70" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_AVEC" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="139.70" y2="139.70" /><label layer="95" size="1.778" x="367.03" y="139.70" /></segment></net><net class="0" name="_KB_DATA"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_KB_DATA" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="106.68" y2="106.68" /><label layer="95" size="1.778" x="163.83" y="106.68" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_KB_DATA" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="106.68" y2="106.68" /><label layer="95" size="1.778" x="367.03" y="106.68" /></segment></net><net class="0" name="_LED"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_LED" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="101.60" y2="101.60" /><label layer="95" size="1.778" x="39.37" y="101.60" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_LED" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="101.60" y2="101.60" /><label layer="95" size="1.778" x="242.57" y="101.60" /></segment></net><net class="0" name="_PIXELSW_EXT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_PIXELSW_EXT" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="68.58" y2="68.58" /><label layer="95" size="1.778" x="39.37" y="68.58" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_PIXELSW_EXT" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="68.58" y2="68.58" /><label layer="95" size="1.778" x="242.57" y="68.58" /></segment></net><net class="0" name="_EXP_BR"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_EXP_BR" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="116.84" y2="116.84" /><label layer="95" size="1.778" x="163.83" y="116.84" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_EXP_BR" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="116.84" y2="116.84" /><label layer="95" size="1.778" x="367.03" y="116.84" /></segment></net><net class="0" name="PIXELCLK"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="PIXELCLK" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="66.04" y2="66.04" /><label layer="95" size="1.778" x="163.83" y="66.04" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="PIXELCLK" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="66.04" y2="66.04" /><label layer="95" size="1.778" x="367.03" y="66.04" /></segment></net><net class="0" name="_NTSC"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_NTSC" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="43.18" y2="43.18" /><label layer="95" size="1.778" x="39.37" y="43.18" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_NTSC" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="43.18" y2="43.18" /><label layer="95" size="1.778" x="242.57" y="43.18" /></segment></net><net class="0" name="DA_BCLK"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DA_BCLK" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="78.74" y2="78.74" /><label layer="95" size="1.778" x="163.83" y="78.74" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DA_BCLK" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="78.74" y2="78.74" /><label layer="95" size="1.778" x="367.03" y="78.74" /></segment></net><net class="0" name="NC@5"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@5" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="134.62" y2="134.62" /><label layer="95" size="1.778" x="163.83" y="134.62" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@5" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="134.62" y2="134.62" /><label layer="95" size="1.778" x="367.03" y="134.62" /></segment></net><net class="0" name="NC@4"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@4" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="139.70" y2="139.70" /><label layer="95" size="1.778" x="39.37" y="139.70" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@4" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="139.70" y2="139.70" /><label layer="95" size="1.778" x="242.57" y="139.70" /></segment></net><net class="0" name="NC@7"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@7" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="124.46" y2="124.46" /><label layer="95" size="1.778" x="163.83" y="124.46" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@7" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="124.46" y2="124.46" /><label layer="95" size="1.778" x="367.03" y="124.46" /></segment></net><net class="0" name="NC@6"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@6" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="124.46" y2="124.46" /><label layer="95" size="1.778" x="39.37" y="124.46" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@6" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="124.46" y2="124.46" /><label layer="95" size="1.778" x="242.57" y="124.46" /></segment></net><net class="0" name="NC@1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@1" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="160.02" y2="160.02" /><label layer="95" size="1.778" x="163.83" y="160.02" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@1" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="160.02" y2="160.02" /><label layer="95" size="1.778" x="367.03" y="160.02" /></segment></net><net class="0" name="NC@3"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@3" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="149.86" y2="149.86" /><label layer="95" size="1.778" x="163.83" y="149.86" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@3" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="149.86" y2="149.86" /><label layer="95" size="1.778" x="367.03" y="149.86" /></segment></net><net class="0" name="NC@2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@2" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="149.86" y2="149.86" /><label layer="95" size="1.778" x="39.37" y="149.86" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@2" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="149.86" y2="149.86" /><label layer="95" size="1.778" x="242.57" y="149.86" /></segment></net><net class="0" name="_TXD"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_TXD" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="99.06" y2="99.06" /><label layer="95" size="1.778" x="163.83" y="99.06" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_TXD" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="99.06" y2="99.06" /><label layer="95" size="1.778" x="367.03" y="99.06" /></segment></net><net class="0" name="NC@9"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@9" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="121.92" y2="121.92" /><label layer="95" size="1.778" x="163.83" y="121.92" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@9" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="121.92" y2="121.92" /><label layer="95" size="1.778" x="367.03" y="121.92" /></segment></net><net class="0" name="NC@8"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@8" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="121.92" y2="121.92" /><label layer="95" size="1.778" x="39.37" y="121.92" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@8" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="121.92" y2="121.92" /><label layer="95" size="1.778" x="242.57" y="121.92" /></segment></net><net class="0" name="AB"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="AB" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="48.26" y2="48.26" /><label layer="95" size="1.778" x="163.83" y="48.26" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="AB" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="48.26" y2="48.26" /><label layer="95" size="1.778" x="367.03" y="48.26" /></segment></net><net class="0" name="SIZ0"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="SIZE_0" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="147.32" y2="147.32" /><label layer="95" size="1.778" x="163.83" y="147.32" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="SIZE_0" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="147.32" y2="147.32" /><label layer="95" size="1.778" x="367.03" y="147.32" /></segment></net><net class="0" name="_CSYNC"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_CSYNC" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="60.96" y2="60.96" /><label layer="95" size="1.778" x="39.37" y="60.96" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_CSYNC" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="60.96" y2="60.96" /><label layer="95" size="1.778" x="242.57" y="60.96" /></segment></net><net class="0" name="_RMC"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_RMC" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="127.00" y2="127.00" /><label layer="95" size="1.778" x="163.83" y="127.00" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_RMC" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="127.00" y2="127.00" /><label layer="95" size="1.778" x="367.03" y="127.00" /></segment></net><net class="0" name="FC0"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="FC_0" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="127.00" y2="127.00" /><label layer="95" size="1.778" x="39.37" y="127.00" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="FC_0" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="127.00" y2="127.00" /><label layer="95" size="1.778" x="242.57" y="127.00" /></segment></net><net class="0" name="FC1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="FC_1" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="129.54" y2="129.54" /><label layer="95" size="1.778" x="163.83" y="129.54" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="FC_1" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="129.54" y2="129.54" /><label layer="95" size="1.778" x="367.03" y="129.54" /></segment></net><net class="0" name="FC2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="FC_2" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="129.54" y2="129.54" /><label layer="95" size="1.778" x="39.37" y="129.54" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="FC_2" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="129.54" y2="129.54" /><label layer="95" size="1.778" x="242.57" y="129.54" /></segment></net><net class="0" name="GND@8"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@8" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="165.10" y2="165.10" /><label layer="95" size="1.778" x="39.37" y="165.10" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@8" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="165.10" y2="165.10" /><label layer="95" size="1.778" x="242.57" y="165.10" /></segment></net><net class="0" name="GND@9"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@9" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="132.08" y2="132.08" /><label layer="95" size="1.778" x="39.37" y="132.08" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@9" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="132.08" y2="132.08" /><label layer="95" size="1.778" x="242.57" y="132.08" /></segment></net><net class="0" name="AGND"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="AGND" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="35.56" y2="35.56" /><label layer="95" size="1.778" x="39.37" y="35.56" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="AGND" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="35.56" y2="35.56" /><label layer="95" size="1.778" x="242.57" y="35.56" /></segment></net><net class="0" name="DKWE"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DKWE" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="93.98" y2="93.98" /><label layer="95" size="1.778" x="163.83" y="93.98" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DKWE" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="93.98" y2="93.98" /><label layer="95" size="1.778" x="367.03" y="93.98" /></segment></net><net class="0" name="GND@1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@1" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="254.00" y2="254.00" /><label layer="95" size="1.778" x="39.37" y="254.00" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@1" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="254.00" y2="254.00" /><label layer="95" size="1.778" x="242.57" y="254.00" /></segment></net><net class="0" name="GND@2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@2" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="241.30" y2="241.30" /><label layer="95" size="1.778" x="39.37" y="241.30" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@2" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="241.30" y2="241.30" /><label layer="95" size="1.778" x="242.57" y="241.30" /></segment></net><net class="0" name="GND@3"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@3" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="228.60" y2="228.60" /><label layer="95" size="1.778" x="39.37" y="228.60" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@3" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="228.60" y2="228.60" /><label layer="95" size="1.778" x="242.57" y="228.60" /></segment></net><net class="0" name="GND@4"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@4" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="215.90" y2="215.90" /><label layer="95" size="1.778" x="39.37" y="215.90" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@4" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="215.90" y2="215.90" /><label layer="95" size="1.778" x="242.57" y="215.90" /></segment></net><net class="0" name="GND@5"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@5" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="203.20" y2="203.20" /><label layer="95" size="1.778" x="39.37" y="203.20" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@5" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="203.20" y2="203.20" /><label layer="95" size="1.778" x="242.57" y="203.20" /></segment></net><net class="0" name="GND@6"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@6" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="190.50" y2="190.50" /><label layer="95" size="1.778" x="39.37" y="190.50" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@6" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="190.50" y2="190.50" /><label layer="95" size="1.778" x="242.57" y="190.50" /></segment></net><net class="0" name="GND@7"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@7" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="177.80" y2="177.80" /><label layer="95" size="1.778" x="39.37" y="177.80" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@7" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="177.80" y2="177.80" /><label layer="95" size="1.778" x="242.57" y="177.80" /></segment></net><net class="0" name="_DS"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_DS" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="144.78" y2="144.78" /><label layer="95" size="1.778" x="163.83" y="144.78" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_DS" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="144.78" y2="144.78" /><label layer="95" size="1.778" x="367.03" y="144.78" /></segment></net><net class="0" name="_RESET"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_RESET" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="111.76" y2="111.76" /><label layer="95" size="1.778" x="163.83" y="111.76" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_RESET" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="111.76" y2="111.76" /><label layer="95" size="1.778" x="367.03" y="111.76" /></segment></net><net class="0" name="_CPU_BG"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_CPU_BG" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="116.84" y2="116.84" /><label layer="95" size="1.778" x="39.37" y="116.84" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_CPU_BG" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="116.84" y2="116.84" /><label layer="95" size="1.778" x="242.57" y="116.84" /></segment></net><net class="0" name="_RST"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_RST" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="152.40" y2="152.40" /><label layer="95" size="1.778" x="39.37" y="152.40" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_RST" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="152.40" y2="152.40" /><label layer="95" size="1.778" x="242.57" y="152.40" /></segment></net><net class="0" name="R_W"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="R_W" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="142.24" y2="142.24" /><label layer="95" size="1.778" x="39.37" y="142.24" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="R_W" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="142.24" y2="142.24" /><label layer="95" size="1.778" x="242.57" y="142.24" /></segment></net><net class="0" name="AR"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="AR" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="53.34" y2="53.34" /><label layer="95" size="1.778" x="163.83" y="53.34" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="AR" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="53.34" y2="53.34" /><label layer="95" size="1.778" x="367.03" y="53.34" /></segment></net><net class="0" name="_DKRD"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_DKRD" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="96.52" y2="96.52" /><label layer="95" size="1.778" x="39.37" y="96.52" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_DKRD" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="96.52" y2="96.52" /><label layer="95" size="1.778" x="242.57" y="96.52" /></segment></net><net class="0" name="_CPU_BR"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_CPU_BR" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="119.38" y2="119.38" /><label layer="95" size="1.778" x="39.37" y="119.38" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_CPU_BR" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="119.38" y2="119.38" /><label layer="95" size="1.778" x="242.57" y="119.38" /></segment></net><net class="0" name="D14"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D14" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="187.96" y2="187.96" /><label layer="95" size="1.778" x="163.83" y="187.96" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D14" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="187.96" y2="187.96" /><label layer="95" size="1.778" x="367.03" y="187.96" /></segment></net><net class="0" name="D15"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D15" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="187.96" y2="187.96" /><label layer="95" size="1.778" x="39.37" y="187.96" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D15" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="187.96" y2="187.96" /><label layer="95" size="1.778" x="242.57" y="187.96" /></segment></net><net class="0" name="D16"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D16" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="193.04" y2="193.04" /><label layer="95" size="1.778" x="163.83" y="193.04" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D16" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="193.04" y2="193.04" /><label layer="95" size="1.778" x="367.03" y="193.04" /></segment></net><net class="0" name="D17"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D17" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="193.04" y2="193.04" /><label layer="95" size="1.778" x="39.37" y="193.04" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D17" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="193.04" y2="193.04" /><label layer="95" size="1.778" x="242.57" y="193.04" /></segment></net><net class="0" name="_AS"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_AS" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="144.78" y2="144.78" /><label layer="95" size="1.778" x="39.37" y="144.78" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_AS" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="144.78" y2="144.78" /><label layer="95" size="1.778" x="242.57" y="144.78" /></segment></net><net class="0" name="D11"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D11" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="182.88" y2="182.88" /><label layer="95" size="1.778" x="39.37" y="182.88" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D11" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="182.88" y2="182.88" /><label layer="95" size="1.778" x="242.57" y="182.88" /></segment></net><net class="0" name="D12"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D12" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="185.42" y2="185.42" /><label layer="95" size="1.778" x="163.83" y="185.42" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D12" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="185.42" y2="185.42" /><label layer="95" size="1.778" x="367.03" y="185.42" /></segment></net><net class="0" name="D13"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D13" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="185.42" y2="185.42" /><label layer="95" size="1.778" x="39.37" y="185.42" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D13" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="185.42" y2="185.42" /><label layer="95" size="1.778" x="242.57" y="185.42" /></segment></net><net class="0" name="D18"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D18" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="195.58" y2="195.58" /><label layer="95" size="1.778" x="163.83" y="195.58" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D18" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="195.58" y2="195.58" /><label layer="95" size="1.778" x="367.03" y="195.58" /></segment></net><net class="0" name="D19"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D19" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="195.58" y2="195.58" /><label layer="95" size="1.778" x="39.37" y="195.58" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D19" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="195.58" y2="195.58" /><label layer="95" size="1.778" x="242.57" y="195.58" /></segment></net><net class="0" name="AG_EXT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="AG_EXT" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="50.80" y2="50.80" /><label layer="95" size="1.778" x="39.37" y="50.80" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="AG_EXT" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="50.80" y2="50.80" /><label layer="95" size="1.778" x="242.57" y="50.80" /></segment></net><net class="0" name="_MUTE"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_MUTE" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="81.28" y2="81.28" /><label layer="95" size="1.778" x="163.83" y="81.28" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_MUTE" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="81.28" y2="81.28" /><label layer="95" size="1.778" x="367.03" y="81.28" /></segment></net><net class="0" name="CLK17MHZ"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="17MHZ" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="83.82" y2="83.82" /><label layer="95" size="1.778" x="39.37" y="83.82" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="17MHZ" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="83.82" y2="83.82" /><label layer="95" size="1.778" x="242.57" y="83.82" /></segment></net><net class="0" name="A31"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A31" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="264.16" y2="264.16" /><label layer="95" size="1.778" x="39.37" y="264.16" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A31" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="264.16" y2="264.16" /><label layer="95" size="1.778" x="242.57" y="264.16" /></segment></net><net class="0" name="A30"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A30" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="264.16" y2="264.16" /><label layer="95" size="1.778" x="163.83" y="264.16" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A30" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="264.16" y2="264.16" /><label layer="95" size="1.778" x="367.03" y="264.16" /></segment></net><net class="0" name="CCK_B"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="CCK_B" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="60.96" y2="60.96" /><label layer="95" size="1.778" x="163.83" y="60.96" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="CCK_B" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="60.96" y2="60.96" /><label layer="95" size="1.778" x="367.03" y="60.96" /></segment></net><net class="0" name="IPL1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_IPL1" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="162.56" y2="162.56" /><label layer="95" size="1.778" x="163.83" y="162.56" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_IPL1" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="162.56" y2="162.56" /><label layer="95" size="1.778" x="367.03" y="162.56" /></segment></net><net class="0" name="IPL0"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_IPL0" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="160.02" y2="160.02" /><label layer="95" size="1.778" x="39.37" y="160.02" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_IPL0" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="160.02" y2="160.02" /><label layer="95" size="1.778" x="242.57" y="160.02" /></segment></net><net class="0" name="IPL2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_IPL2" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="162.56" y2="162.56" /><label layer="95" size="1.778" x="39.37" y="162.56" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_IPL2" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="162.56" y2="162.56" /><label layer="95" size="1.778" x="242.57" y="162.56" /></segment></net><net class="0" name="VCC@5"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@5" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="203.20" y2="203.20" /><label layer="95" size="1.778" x="163.83" y="203.20" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@5" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="203.20" y2="203.20" /><label layer="95" size="1.778" x="367.03" y="203.20" /></segment></net><net class="0" name="VCC@4"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@4" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="215.90" y2="215.90" /><label layer="95" size="1.778" x="163.83" y="215.90" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@4" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="215.90" y2="215.90" /><label layer="95" size="1.778" x="367.03" y="215.90" /></segment></net><net class="0" name="VCC@7"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@7" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="177.80" y2="177.80" /><label layer="95" size="1.778" x="163.83" y="177.80" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@7" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="177.80" y2="177.80" /><label layer="95" size="1.778" x="367.03" y="177.80" /></segment></net><net class="0" name="VCC@6"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@6" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="190.50" y2="190.50" /><label layer="95" size="1.778" x="163.83" y="190.50" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@6" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="190.50" y2="190.50" /><label layer="95" size="1.778" x="367.03" y="190.50" /></segment></net><net class="0" name="VCC@1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@1" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="254.00" y2="254.00" /><label layer="95" size="1.778" x="163.83" y="254.00" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@1" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="254.00" y2="254.00" /><label layer="95" size="1.778" x="367.03" y="254.00" /></segment></net><net class="0" name="VCC@3"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@3" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="228.60" y2="228.60" /><label layer="95" size="1.778" x="163.83" y="228.60" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@3" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="228.60" y2="228.60" /><label layer="95" size="1.778" x="367.03" y="228.60" /></segment></net><net class="0" name="VCC@2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@2" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="241.30" y2="241.30" /><label layer="95" size="1.778" x="163.83" y="241.30" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@2" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="241.30" y2="241.30" /><label layer="95" size="1.778" x="367.03" y="241.30" /></segment></net><net class="0" name="VCC@9"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@9" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="132.08" y2="132.08" /><label layer="95" size="1.778" x="163.83" y="132.08" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@9" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="132.08" y2="132.08" /><label layer="95" size="1.778" x="367.03" y="132.08" /></segment></net><net class="0" name="VCC@8"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@8" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="165.10" y2="165.10" /><label layer="95" size="1.778" x="163.83" y="165.10" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@8" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="165.10" y2="165.10" /><label layer="95" size="1.778" x="367.03" y="165.10" /></segment></net><net class="0" name="LEFT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="LEFT" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="33.02" y2="33.02" /><label layer="95" size="1.778" x="163.83" y="33.02" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="LEFT" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="33.02" y2="33.02" /><label layer="95" size="1.778" x="367.03" y="33.02" /></segment></net><net class="0" name="D29"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D29" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="210.82" y2="210.82" /><label layer="95" size="1.778" x="39.37" y="210.82" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D29" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="210.82" y2="210.82" /><label layer="95" size="1.778" x="242.57" y="210.82" /></segment></net><net class="0" name="D28"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D28" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="210.82" y2="210.82" /><label layer="95" size="1.778" x="163.83" y="210.82" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D28" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="210.82" y2="210.82" /><label layer="95" size="1.778" x="367.03" y="210.82" /></segment></net><net class="0" name="DA_DATA"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DA_DATA" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="81.28" y2="81.28" /><label layer="95" size="1.778" x="39.37" y="81.28" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DA_DATA" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="81.28" y2="81.28" /><label layer="95" size="1.778" x="242.57" y="81.28" /></segment></net><net class="0" name="CPUCLK_A"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="CPUCLK_A" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="134.62" y2="134.62" /><label layer="95" size="1.778" x="39.37" y="134.62" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="CPUCLK_A" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="134.62" y2="134.62" /><label layer="95" size="1.778" x="242.57" y="134.62" /></segment></net><net class="0" name="D21"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D21" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="198.12" y2="198.12" /><label layer="95" size="1.778" x="39.37" y="198.12" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D21" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="198.12" y2="198.12" /><label layer="95" size="1.778" x="242.57" y="198.12" /></segment></net><net class="0" name="D20"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D20" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="198.12" y2="198.12" /><label layer="95" size="1.778" x="163.83" y="198.12" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D20" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="198.12" y2="198.12" /><label layer="95" size="1.778" x="367.03" y="198.12" /></segment></net><net class="0" name="D23"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D23" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="200.66" y2="200.66" /><label layer="95" size="1.778" x="39.37" y="200.66" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D23" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="200.66" y2="200.66" /><label layer="95" size="1.778" x="242.57" y="200.66" /></segment></net><net class="0" name="D22"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D22" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="200.66" y2="200.66" /><label layer="95" size="1.778" x="163.83" y="200.66" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D22" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="200.66" y2="200.66" /><label layer="95" size="1.778" x="367.03" y="200.66" /></segment></net><net class="0" name="D25"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D25" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="205.74" y2="205.74" /><label layer="95" size="1.778" x="39.37" y="205.74" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D25" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="205.74" y2="205.74" /><label layer="95" size="1.778" x="242.57" y="205.74" /></segment></net><net class="0" name="D24"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D24" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="205.74" y2="205.74" /><label layer="95" size="1.778" x="163.83" y="205.74" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D24" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="205.74" y2="205.74" /><label layer="95" size="1.778" x="367.03" y="205.74" /></segment></net><net class="0" name="D27"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D27" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="208.28" y2="208.28" /><label layer="95" size="1.778" x="39.37" y="208.28" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D27" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="208.28" y2="208.28" /><label layer="95" size="1.778" x="242.57" y="208.28" /></segment></net><net class="0" name="D26"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D26" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="208.28" y2="208.28" /><label layer="95" size="1.778" x="163.83" y="208.28" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D26" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="208.28" y2="208.28" /><label layer="95" size="1.778" x="367.03" y="208.28" /></segment></net><net class="0" name="GND@12"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@12" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="88.90" y2="88.90" /><label layer="95" size="1.778" x="39.37" y="88.90" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@12" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="88.90" y2="88.90" /><label layer="95" size="1.778" x="242.57" y="88.90" /></segment></net><net class="0" name="GND@13"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@13" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="86.36" y2="86.36" /><label layer="95" size="1.778" x="39.37" y="86.36" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@13" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="86.36" y2="86.36" /><label layer="95" size="1.778" x="242.57" y="86.36" /></segment></net><net class="0" name="GND@10"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@10" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="93.98" y2="93.98" /><label layer="95" size="1.778" x="39.37" y="93.98" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@10" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="93.98" y2="93.98" /><label layer="95" size="1.778" x="242.57" y="93.98" /></segment></net><net class="0" name="GND@11"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@11" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="91.44" y2="91.44" /><label layer="95" size="1.778" x="39.37" y="91.44" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@11" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="91.44" y2="91.44" /><label layer="95" size="1.778" x="242.57" y="91.44" /></segment></net><net class="0" name="GND@16"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@16" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="38.10" y2="38.10" /><label layer="95" size="1.778" x="39.37" y="38.10" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@16" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="38.10" y2="38.10" /><label layer="95" size="1.778" x="242.57" y="38.10" /></segment></net><net class="0" name="_EXT_AUDIO"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_EXT_AUDIO" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="83.82" y2="83.82" /><label layer="95" size="1.778" x="163.83" y="83.82" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_EXT_AUDIO" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="83.82" y2="83.82" /><label layer="95" size="1.778" x="367.03" y="83.82" /></segment></net><net class="0" name="GND@14"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@14" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="76.20" y2="76.20" /><label layer="95" size="1.778" x="39.37" y="76.20" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@14" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="76.20" y2="76.20" /><label layer="95" size="1.778" x="242.57" y="76.20" /></segment></net><net class="0" name="GND@15"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="GND@15" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="63.50" y2="63.50" /><label layer="95" size="1.778" x="39.37" y="63.50" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="GND@15" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="63.50" y2="63.50" /><label layer="95" size="1.778" x="242.57" y="63.50" /></segment></net><net class="0" name="_PUNT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_PUNT" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="111.76" y2="111.76" /><label layer="95" size="1.778" x="39.37" y="111.76" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_PUNT" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="111.76" y2="111.76" /><label layer="95" size="1.778" x="242.57" y="111.76" /></segment></net><net class="0" name="_XCLKEN"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_XCLKEN" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="43.18" y2="43.18" /><label layer="95" size="1.778" x="163.83" y="43.18" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_XCLKEN" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="43.18" y2="43.18" /><label layer="95" size="1.778" x="367.03" y="43.18" /></segment></net><net class="0" name="A20"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A20" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="248.92" y2="248.92" /><label layer="95" size="1.778" x="163.83" y="248.92" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A20" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="248.92" y2="248.92" /><label layer="95" size="1.778" x="367.03" y="248.92" /></segment></net><net class="0" name="A21"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A21" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="248.92" y2="248.92" /><label layer="95" size="1.778" x="39.37" y="248.92" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A21" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="248.92" y2="248.92" /><label layer="95" size="1.778" x="242.57" y="248.92" /></segment></net><net class="0" name="A22"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A22" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="251.46" y2="251.46" /><label layer="95" size="1.778" x="163.83" y="251.46" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A22" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="251.46" y2="251.46" /><label layer="95" size="1.778" x="367.03" y="251.46" /></segment></net><net class="0" name="A23"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A23" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="251.46" y2="251.46" /><label layer="95" size="1.778" x="39.37" y="251.46" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A23" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="251.46" y2="251.46" /><label layer="95" size="1.778" x="242.57" y="251.46" /></segment></net><net class="0" name="A24"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A24" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="256.54" y2="256.54" /><label layer="95" size="1.778" x="163.83" y="256.54" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A24" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="256.54" y2="256.54" /><label layer="95" size="1.778" x="367.03" y="256.54" /></segment></net><net class="0" name="A25"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A25" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="256.54" y2="256.54" /><label layer="95" size="1.778" x="39.37" y="256.54" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A25" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="256.54" y2="256.54" /><label layer="95" size="1.778" x="242.57" y="256.54" /></segment></net><net class="0" name="A26"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A26" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="259.08" y2="259.08" /><label layer="95" size="1.778" x="163.83" y="259.08" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A26" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="259.08" y2="259.08" /><label layer="95" size="1.778" x="367.03" y="259.08" /></segment></net><net class="0" name="A27"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A27" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="259.08" y2="259.08" /><label layer="95" size="1.778" x="39.37" y="259.08" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A27" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="259.08" y2="259.08" /><label layer="95" size="1.778" x="242.57" y="259.08" /></segment></net><net class="0" name="A28"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A28" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="261.62" y2="261.62" /><label layer="95" size="1.778" x="163.83" y="261.62" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A28" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="261.62" y2="261.62" /><label layer="95" size="1.778" x="367.03" y="261.62" /></segment></net><net class="0" name="A29"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A29" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="261.62" y2="261.62" /><label layer="95" size="1.778" x="39.37" y="261.62" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A29" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="261.62" y2="261.62" /><label layer="95" size="1.778" x="242.57" y="261.62" /></segment></net><net class="0" name="_ACTIVE"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_ACTIVE" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="101.60" y2="101.60" /><label layer="95" size="1.778" x="163.83" y="101.60" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_ACTIVE" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="101.60" y2="101.60" /><label layer="95" size="1.778" x="367.03" y="101.60" /></segment></net><net class="0" name="_VSYNC"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_VSYNC" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="58.42" y2="58.42" /><label layer="95" size="1.778" x="163.83" y="58.42" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_VSYNC" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="58.42" y2="58.42" /><label layer="95" size="1.778" x="367.03" y="58.42" /></segment></net><net class="0" name="_BEER"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_BEER" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="142.24" y2="142.24" /><label layer="95" size="1.778" x="163.83" y="142.24" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_BEER" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="142.24" y2="142.24" /><label layer="95" size="1.778" x="367.03" y="142.24" /></segment></net><net class="0" name="_EXT_VIDEO"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_EXT_VIDEO" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="40.64" y2="40.64" /><label layer="95" size="1.778" x="163.83" y="40.64" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_EXT_VIDEO" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="40.64" y2="40.64" /><label layer="95" size="1.778" x="367.03" y="40.64" /></segment></net><net class="0" name="DA_LRCLK"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DA_LRCLK" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="78.74" y2="78.74" /><label layer="95" size="1.778" x="39.37" y="78.74" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DA_LRCLK" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="78.74" y2="78.74" /><label layer="95" size="1.778" x="242.57" y="78.74" /></segment></net><net class="0" name="_EXP_BG"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_EXP_BG" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="119.38" y2="119.38" /><label layer="95" size="1.778" x="163.83" y="119.38" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_EXP_BG" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="119.38" y2="119.38" /><label layer="95" size="1.778" x="367.03" y="119.38" /></segment></net><net class="0" name="_BLANK"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_BLANK" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="66.04" y2="66.04" /><label layer="95" size="1.778" x="39.37" y="66.04" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_BLANK" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="66.04" y2="66.04" /><label layer="95" size="1.778" x="242.57" y="66.04" /></segment></net><net class="0" name="DI"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DI" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="71.12" y2="71.12" /><label layer="95" size="1.778" x="163.83" y="71.12" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DI" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="71.12" y2="71.12" /><label layer="95" size="1.778" x="367.03" y="71.12" /></segment></net><net class="0" name="DG"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DG" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="73.66" y2="73.66" /><label layer="95" size="1.778" x="163.83" y="73.66" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DG" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="73.66" y2="73.66" /><label layer="95" size="1.778" x="367.03" y="73.66" /></segment></net><net class="0" name="DB"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DB" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="71.12" y2="71.12" /><label layer="95" size="1.778" x="39.37" y="71.12" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DB" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="71.12" y2="71.12" /><label layer="95" size="1.778" x="242.57" y="71.12" /></segment></net><net class="0" name="D30"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D30" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="213.36" y2="213.36" /><label layer="95" size="1.778" x="163.83" y="213.36" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D30" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="213.36" y2="213.36" /><label layer="95" size="1.778" x="367.03" y="213.36" /></segment></net><net class="0" name="D31"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D31" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="213.36" y2="213.36" /><label layer="95" size="1.778" x="39.37" y="213.36" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D31" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="213.36" y2="213.36" /><label layer="95" size="1.778" x="242.57" y="213.36" /></segment></net><net class="0" name="DR"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="DR" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="73.66" y2="73.66" /><label layer="95" size="1.778" x="39.37" y="73.66" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="DR" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="73.66" y2="73.66" /><label layer="95" size="1.778" x="242.57" y="73.66" /></segment></net><net class="0" name="A15"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A15" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="238.76" y2="238.76" /><label layer="95" size="1.778" x="39.37" y="238.76" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A15" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="238.76" y2="238.76" /><label layer="95" size="1.778" x="242.57" y="238.76" /></segment></net><net class="0" name="A14"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A14" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="238.76" y2="238.76" /><label layer="95" size="1.778" x="163.83" y="238.76" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A14" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="238.76" y2="238.76" /><label layer="95" size="1.778" x="367.03" y="238.76" /></segment></net><net class="0" name="A17"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A17" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="243.84" y2="243.84" /><label layer="95" size="1.778" x="39.37" y="243.84" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A17" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="243.84" y2="243.84" /><label layer="95" size="1.778" x="242.57" y="243.84" /></segment></net><net class="0" name="A16"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A16" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="243.84" y2="243.84" /><label layer="95" size="1.778" x="163.83" y="243.84" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A16" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="243.84" y2="243.84" /><label layer="95" size="1.778" x="367.03" y="243.84" /></segment></net><net class="0" name="A11"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A11" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="233.68" y2="233.68" /><label layer="95" size="1.778" x="39.37" y="233.68" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A11" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="233.68" y2="233.68" /><label layer="95" size="1.778" x="242.57" y="233.68" /></segment></net><net class="0" name="A10"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A10" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="233.68" y2="233.68" /><label layer="95" size="1.778" x="163.83" y="233.68" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A10" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="233.68" y2="233.68" /><label layer="95" size="1.778" x="367.03" y="233.68" /></segment></net><net class="0" name="A13"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A13" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="236.22" y2="236.22" /><label layer="95" size="1.778" x="39.37" y="236.22" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A13" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="236.22" y2="236.22" /><label layer="95" size="1.778" x="242.57" y="236.22" /></segment></net><net class="0" name="A12"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A12" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="236.22" y2="236.22" /><label layer="95" size="1.778" x="163.83" y="236.22" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A12" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="236.22" y2="236.22" /><label layer="95" size="1.778" x="367.03" y="236.22" /></segment></net><net class="0" name="A19"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A19" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="246.38" y2="246.38" /><label layer="95" size="1.778" x="39.37" y="246.38" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A19" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="246.38" y2="246.38" /><label layer="95" size="1.778" x="242.57" y="246.38" /></segment></net><net class="0" name="A18"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A18" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="246.38" y2="246.38" /><label layer="95" size="1.778" x="163.83" y="246.38" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A18" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="246.38" y2="246.38" /><label layer="95" size="1.778" x="367.03" y="246.38" /></segment></net><net class="0" name="SIZ1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="SIZE_1" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="147.32" y2="147.32" /><label layer="95" size="1.778" x="39.37" y="147.32" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="SIZE_1" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="147.32" y2="147.32" /><label layer="95" size="1.778" x="242.57" y="147.32" /></segment></net><net class="0" name="A1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A1" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="218.44" y2="218.44" /><label layer="95" size="1.778" x="39.37" y="218.44" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A1" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="218.44" y2="218.44" /><label layer="95" size="1.778" x="242.57" y="218.44" /></segment></net><net class="0" name="A0"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A0" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="218.44" y2="218.44" /><label layer="95" size="1.778" x="163.83" y="218.44" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A0" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="218.44" y2="218.44" /><label layer="95" size="1.778" x="367.03" y="218.44" /></segment></net><net class="0" name="A3"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A3" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="220.98" y2="220.98" /><label layer="95" size="1.778" x="39.37" y="220.98" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A3" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="220.98" y2="220.98" /><label layer="95" size="1.778" x="242.57" y="220.98" /></segment></net><net class="0" name="A2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A2" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="220.98" y2="220.98" /><label layer="95" size="1.778" x="163.83" y="220.98" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A2" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="220.98" y2="220.98" /><label layer="95" size="1.778" x="367.03" y="220.98" /></segment></net><net class="0" name="A5"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A5" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="223.52" y2="223.52" /><label layer="95" size="1.778" x="39.37" y="223.52" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A5" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="223.52" y2="223.52" /><label layer="95" size="1.778" x="242.57" y="223.52" /></segment></net><net class="0" name="NC@10"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="NC@10" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="114.30" y2="114.30" /><label layer="95" size="1.778" x="39.37" y="114.30" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="NC@10" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="114.30" y2="114.30" /><label layer="95" size="1.778" x="242.57" y="114.30" /></segment></net><net class="0" name="A7"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A7" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="226.06" y2="226.06" /><label layer="95" size="1.778" x="39.37" y="226.06" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A7" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="226.06" y2="226.06" /><label layer="95" size="1.778" x="242.57" y="226.06" /></segment></net><net class="0" name="A6"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A6" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="226.06" y2="226.06" /><label layer="95" size="1.778" x="163.83" y="226.06" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A6" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="226.06" y2="226.06" /><label layer="95" size="1.778" x="367.03" y="226.06" /></segment></net><net class="0" name="A9"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A9" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="231.14" y2="231.14" /><label layer="95" size="1.778" x="39.37" y="231.14" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A9" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="231.14" y2="231.14" /><label layer="95" size="1.778" x="242.57" y="231.14" /></segment></net><net class="0" name="A8"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="A8" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="231.14" y2="231.14" /><label layer="95" size="1.778" x="163.83" y="231.14" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="A8" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="231.14" y2="231.14" /><label layer="95" size="1.778" x="367.03" y="231.14" /></segment></net><net class="0" name="_DSACK_0"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_DSACK_0" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="137.16" y2="137.16" /><label layer="95" size="1.778" x="163.83" y="137.16" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_DSACK_0" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="137.16" y2="137.16" /><label layer="95" size="1.778" x="367.03" y="137.16" /></segment></net><net class="0" name="_DSACK_1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_DSACK_1" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="137.16" y2="137.16" /><label layer="95" size="1.778" x="39.37" y="137.16" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_DSACK_1" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="137.16" y2="137.16" /><label layer="95" size="1.778" x="242.57" y="137.16" /></segment></net><net class="0" name="AR_EXT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="AR_EXT" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="53.34" y2="53.34" /><label layer="95" size="1.778" x="39.37" y="53.34" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="AR_EXT" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="53.34" y2="53.34" /><label layer="95" size="1.778" x="242.57" y="53.34" /></segment></net><net class="0" name="AG"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="AG" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="50.80" y2="50.80" /><label layer="95" size="1.778" x="163.83" y="50.80" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="AG" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="50.80" y2="50.80" /><label layer="95" size="1.778" x="367.03" y="50.80" /></segment></net><net class="0" name="AB_EXT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="AB_EXT" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="48.26" y2="48.26" /><label layer="95" size="1.778" x="39.37" y="48.26" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="AB_EXT" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="48.26" y2="48.26" /><label layer="95" size="1.778" x="242.57" y="48.26" /></segment></net><net class="0" name="_HSYNC"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_HSYNC" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="58.42" y2="58.42" /><label layer="95" size="1.778" x="39.37" y="58.42" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_HSYNC" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="58.42" y2="58.42" /><label layer="95" size="1.778" x="242.57" y="58.42" /></segment></net><net class="0" name="_PIXELSW"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="_PIXELSW" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="68.58" y2="68.58" /><label layer="95" size="1.778" x="163.83" y="68.58" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="_PIXELSW" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="68.58" y2="68.58" /><label layer="95" size="1.778" x="367.03" y="68.58" /></segment></net><net class="0" name="RIGHT"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="RIGHT" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="30.48" y2="30.48" /><label layer="95" size="1.778" x="163.83" y="30.48" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="RIGHT" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="30.48" y2="30.48" /><label layer="95" size="1.778" x="367.03" y="30.48" /></segment></net><net class="0" name="VCC@11"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@11" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="76.20" y2="76.20" /><label layer="95" size="1.778" x="163.83" y="76.20" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@11" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="76.20" y2="76.20" /><label layer="95" size="1.778" x="367.03" y="76.20" /></segment></net><net class="0" name="VCC@13"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@13" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="38.10" y2="38.10" /><label layer="95" size="1.778" x="163.83" y="38.10" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@13" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="38.10" y2="38.10" /><label layer="95" size="1.778" x="367.03" y="38.10" /></segment></net><net class="0" name="VCC@12"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="VCC@12" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="63.50" y2="63.50" /><label layer="95" size="1.778" x="163.83" y="63.50" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="VCC@12" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="63.50" y2="63.50" /><label layer="95" size="1.778" x="367.03" y="63.50" /></segment></net><net class="0" name="D8"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D8" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="180.34" y2="180.34" /><label layer="95" size="1.778" x="163.83" y="180.34" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D8" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="180.34" y2="180.34" /><label layer="95" size="1.778" x="367.03" y="180.34" /></segment></net><net class="0" name="D9"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D9" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="180.34" y2="180.34" /><label layer="95" size="1.778" x="39.37" y="180.34" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D9" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="180.34" y2="180.34" /><label layer="95" size="1.778" x="242.57" y="180.34" /></segment></net><net class="0" name="D6"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D6" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="175.26" y2="175.26" /><label layer="95" size="1.778" x="163.83" y="175.26" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D6" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="175.26" y2="175.26" /><label layer="95" size="1.778" x="367.03" y="175.26" /></segment></net><net class="0" name="D7"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D7" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="175.26" y2="175.26" /><label layer="95" size="1.778" x="39.37" y="175.26" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D7" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="175.26" y2="175.26" /><label layer="95" size="1.778" x="242.57" y="175.26" /></segment></net><net class="0" name="D4"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D4" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="172.72" y2="172.72" /><label layer="95" size="1.778" x="163.83" y="172.72" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D4" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="172.72" y2="172.72" /><label layer="95" size="1.778" x="367.03" y="172.72" /></segment></net><net class="0" name="D5"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D5" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="172.72" y2="172.72" /><label layer="95" size="1.778" x="39.37" y="172.72" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D5" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="172.72" y2="172.72" /><label layer="95" size="1.778" x="242.57" y="172.72" /></segment></net><net class="0" name="D2"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D2" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="170.18" y2="170.18" /><label layer="95" size="1.778" x="163.83" y="170.18" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D2" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="170.18" y2="170.18" /><label layer="95" size="1.778" x="367.03" y="170.18" /></segment></net><net class="0" name="D3"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D3" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="170.18" y2="170.18" /><label layer="95" size="1.778" x="39.37" y="170.18" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D3" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="170.18" y2="170.18" /><label layer="95" size="1.778" x="242.57" y="170.18" /></segment></net><net class="0" name="D0"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D0" /><wire layer="91" width="0.1534" x1="124.46" x2="203.20" y1="167.64" y2="167.64" /><label layer="95" size="1.778" x="163.83" y="167.64" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D0" /><wire layer="91" width="0.1534" x1="327.66" x2="406.40" y1="167.64" y2="167.64" /><label layer="95" size="1.778" x="367.03" y="167.64" /></segment></net><net class="0" name="D1"><segment><pinref gate="CD32_EXPANSION" part="CN1" pin="D1" /><wire layer="91" width="0.1534" x1="78.74" x2="0.00" y1="167.64" y2="167.64" /><label layer="95" size="1.778" x="39.37" y="167.64" /></segment><segment><pinref gate="CD32_EXPANSION" part="CN2" pin="D1" /><wire layer="91" width="0.1534" x1="281.94" x2="203.20" y1="167.64" y2="167.64" /><label layer="95" size="1.778" x="242.57" y="167.64" /></segment></net></nets>
+<nets>
+<net name="+12V@2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="+12V@2"/>
+<wire x1="124.46" y1="86.36" x2="203.2" y2="86.36" width="0.1534" layer="91"/>
+<label x="163.83" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="+12V@2"/>
+<wire x1="327.66" y1="86.36" x2="406.4" y2="86.36" width="0.1534" layer="91"/>
+<label x="367.03" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+12V@3" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="+12V@3"/>
+<wire x1="124.46" y1="35.56" x2="203.2" y2="35.56" width="0.1534" layer="91"/>
+<label x="163.83" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="+12V@3"/>
+<wire x1="327.66" y1="35.56" x2="406.4" y2="35.56" width="0.1534" layer="91"/>
+<label x="367.03" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RIGHT_EXT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="RIGHT_EXT"/>
+<wire x1="78.74" y1="30.48" x2="0" y2="30.48" width="0.1534" layer="91"/>
+<label x="39.37" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="RIGHT_EXT"/>
+<wire x1="281.94" y1="30.48" x2="203.2" y2="30.48" width="0.1534" layer="91"/>
+<label x="242.57" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VGND@1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VGND@1"/>
+<wire x1="78.74" y1="55.88" x2="0" y2="55.88" width="0.1534" layer="91"/>
+<label x="39.37" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VGND@1"/>
+<wire x1="281.94" y1="55.88" x2="203.2" y2="55.88" width="0.1534" layer="91"/>
+<label x="242.57" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_HLT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_HLT"/>
+<wire x1="124.46" y1="152.4" x2="203.2" y2="152.4" width="0.1534" layer="91"/>
+<label x="163.83" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_HLT"/>
+<wire x1="327.66" y1="152.4" x2="406.4" y2="152.4" width="0.1534" layer="91"/>
+<label x="367.03" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VGND@3" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VGND@3"/>
+<wire x1="124.46" y1="55.88" x2="203.2" y2="55.88" width="0.1534" layer="91"/>
+<label x="163.83" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VGND@3"/>
+<wire x1="327.66" y1="55.88" x2="406.4" y2="55.88" width="0.1534" layer="91"/>
+<label x="367.03" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VGND@2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VGND@2"/>
+<wire x1="78.74" y1="45.72" x2="0" y2="45.72" width="0.1534" layer="91"/>
+<label x="39.37" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VGND@2"/>
+<wire x1="281.94" y1="45.72" x2="203.2" y2="45.72" width="0.1534" layer="91"/>
+<label x="242.57" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VGND@4" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VGND@4"/>
+<wire x1="124.46" y1="45.72" x2="203.2" y2="45.72" width="0.1534" layer="91"/>
+<label x="163.83" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VGND@4"/>
+<wire x1="327.66" y1="45.72" x2="406.4" y2="45.72" width="0.1534" layer="91"/>
+<label x="367.03" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_FIRE1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_FIRE1"/>
+<wire x1="124.46" y1="104.14" x2="203.2" y2="104.14" width="0.1534" layer="91"/>
+<label x="163.83" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_FIRE1"/>
+<wire x1="327.66" y1="104.14" x2="406.4" y2="104.14" width="0.1534" layer="91"/>
+<label x="367.03" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_FIRE0" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_FIRE0"/>
+<wire x1="78.74" y1="104.14" x2="0" y2="104.14" width="0.1534" layer="91"/>
+<label x="39.37" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_FIRE0"/>
+<wire x1="281.94" y1="104.14" x2="203.2" y2="104.14" width="0.1534" layer="91"/>
+<label x="242.57" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D10" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D10"/>
+<wire x1="124.46" y1="182.88" x2="203.2" y2="182.88" width="0.1534" layer="91"/>
+<label x="163.83" y="182.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D10"/>
+<wire x1="327.66" y1="182.88" x2="406.4" y2="182.88" width="0.1534" layer="91"/>
+<label x="367.03" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_RXD" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_RXD"/>
+<wire x1="78.74" y1="99.06" x2="0" y2="99.06" width="0.1534" layer="91"/>
+<label x="39.37" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_RXD"/>
+<wire x1="281.94" y1="99.06" x2="203.2" y2="99.06" width="0.1534" layer="91"/>
+<label x="242.57" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+12V@1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="+12V@1"/>
+<wire x1="124.46" y1="88.9" x2="203.2" y2="88.9" width="0.1534" layer="91"/>
+<label x="163.83" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="+12V@1"/>
+<wire x1="327.66" y1="88.9" x2="406.4" y2="88.9" width="0.1534" layer="91"/>
+<label x="367.03" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_KB_CLOCK" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_KB_CLOCK"/>
+<wire x1="78.74" y1="106.68" x2="0" y2="106.68" width="0.1534" layer="91"/>
+<label x="39.37" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_KB_CLOCK"/>
+<wire x1="281.94" y1="106.68" x2="203.2" y2="106.68" width="0.1534" layer="91"/>
+<label x="242.57" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_INT2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_INT2"/>
+<wire x1="78.74" y1="109.22" x2="0" y2="109.22" width="0.1534" layer="91"/>
+<label x="39.37" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_INT2"/>
+<wire x1="281.94" y1="109.22" x2="203.2" y2="109.22" width="0.1534" layer="91"/>
+<label x="242.57" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_INT6" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_INT6"/>
+<wire x1="124.46" y1="109.22" x2="203.2" y2="109.22" width="0.1534" layer="91"/>
+<label x="163.83" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_INT6"/>
+<wire x1="327.66" y1="109.22" x2="406.4" y2="109.22" width="0.1534" layer="91"/>
+<label x="367.03" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@11" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@11"/>
+<wire x1="124.46" y1="114.3" x2="203.2" y2="114.3" width="0.1534" layer="91"/>
+<label x="163.83" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@11"/>
+<wire x1="327.66" y1="114.3" x2="406.4" y2="114.3" width="0.1534" layer="91"/>
+<label x="367.03" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A4"/>
+<wire x1="124.46" y1="223.52" x2="203.2" y2="223.52" width="0.1534" layer="91"/>
+<label x="163.83" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A4"/>
+<wire x1="327.66" y1="223.52" x2="406.4" y2="223.52" width="0.1534" layer="91"/>
+<label x="367.03" y="223.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEFT_EXT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="LEFT_EXT"/>
+<wire x1="78.74" y1="33.02" x2="0" y2="33.02" width="0.1534" layer="91"/>
+<label x="39.37" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="LEFT_EXT"/>
+<wire x1="281.94" y1="33.02" x2="203.2" y2="33.02" width="0.1534" layer="91"/>
+<label x="242.57" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_DKWD" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_DKWD"/>
+<wire x1="124.46" y1="96.52" x2="203.2" y2="96.52" width="0.1534" layer="91"/>
+<label x="163.83" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_DKWD"/>
+<wire x1="327.66" y1="96.52" x2="406.4" y2="96.52" width="0.1534" layer="91"/>
+<label x="367.03" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XCLK" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="XCLK"/>
+<wire x1="78.74" y1="40.64" x2="0" y2="40.64" width="0.1534" layer="91"/>
+<label x="39.37" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="XCLK"/>
+<wire x1="281.94" y1="40.64" x2="203.2" y2="40.64" width="0.1534" layer="91"/>
+<label x="242.57" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@12" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@12"/>
+<wire x1="124.46" y1="91.44" x2="203.2" y2="91.44" width="0.1534" layer="91"/>
+<label x="163.83" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@12"/>
+<wire x1="327.66" y1="91.44" x2="406.4" y2="91.44" width="0.1534" layer="91"/>
+<label x="367.03" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_AVEC" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_AVEC"/>
+<wire x1="124.46" y1="139.7" x2="203.2" y2="139.7" width="0.1534" layer="91"/>
+<label x="163.83" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_AVEC"/>
+<wire x1="327.66" y1="139.7" x2="406.4" y2="139.7" width="0.1534" layer="91"/>
+<label x="367.03" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_KB_DATA" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_KB_DATA"/>
+<wire x1="124.46" y1="106.68" x2="203.2" y2="106.68" width="0.1534" layer="91"/>
+<label x="163.83" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_KB_DATA"/>
+<wire x1="327.66" y1="106.68" x2="406.4" y2="106.68" width="0.1534" layer="91"/>
+<label x="367.03" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_LED" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_LED"/>
+<wire x1="78.74" y1="101.6" x2="0" y2="101.6" width="0.1534" layer="91"/>
+<label x="39.37" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_LED"/>
+<wire x1="281.94" y1="101.6" x2="203.2" y2="101.6" width="0.1534" layer="91"/>
+<label x="242.57" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_PIXELSW_EXT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_PIXELSW_EXT"/>
+<wire x1="78.74" y1="68.58" x2="0" y2="68.58" width="0.1534" layer="91"/>
+<label x="39.37" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_PIXELSW_EXT"/>
+<wire x1="281.94" y1="68.58" x2="203.2" y2="68.58" width="0.1534" layer="91"/>
+<label x="242.57" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_EXP_BR" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_EXP_BR"/>
+<wire x1="124.46" y1="116.84" x2="203.2" y2="116.84" width="0.1534" layer="91"/>
+<label x="163.83" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_EXP_BR"/>
+<wire x1="327.66" y1="116.84" x2="406.4" y2="116.84" width="0.1534" layer="91"/>
+<label x="367.03" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PIXELCLK" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="PIXELCLK"/>
+<wire x1="124.46" y1="66.04" x2="203.2" y2="66.04" width="0.1534" layer="91"/>
+<label x="163.83" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="PIXELCLK"/>
+<wire x1="327.66" y1="66.04" x2="406.4" y2="66.04" width="0.1534" layer="91"/>
+<label x="367.03" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_NTSC" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_NTSC"/>
+<wire x1="78.74" y1="43.18" x2="0" y2="43.18" width="0.1534" layer="91"/>
+<label x="39.37" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_NTSC"/>
+<wire x1="281.94" y1="43.18" x2="203.2" y2="43.18" width="0.1534" layer="91"/>
+<label x="242.57" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DA_BCLK" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DA_BCLK"/>
+<wire x1="124.46" y1="78.74" x2="203.2" y2="78.74" width="0.1534" layer="91"/>
+<label x="163.83" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DA_BCLK"/>
+<wire x1="327.66" y1="78.74" x2="406.4" y2="78.74" width="0.1534" layer="91"/>
+<label x="367.03" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@5" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@5"/>
+<wire x1="124.46" y1="134.62" x2="203.2" y2="134.62" width="0.1534" layer="91"/>
+<label x="163.83" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@5"/>
+<wire x1="327.66" y1="134.62" x2="406.4" y2="134.62" width="0.1534" layer="91"/>
+<label x="367.03" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@4" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@4"/>
+<wire x1="78.74" y1="139.7" x2="0" y2="139.7" width="0.1534" layer="91"/>
+<label x="39.37" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@4"/>
+<wire x1="281.94" y1="139.7" x2="203.2" y2="139.7" width="0.1534" layer="91"/>
+<label x="242.57" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@7" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@7"/>
+<wire x1="124.46" y1="124.46" x2="203.2" y2="124.46" width="0.1534" layer="91"/>
+<label x="163.83" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@7"/>
+<wire x1="327.66" y1="124.46" x2="406.4" y2="124.46" width="0.1534" layer="91"/>
+<label x="367.03" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@6" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@6"/>
+<wire x1="78.74" y1="124.46" x2="0" y2="124.46" width="0.1534" layer="91"/>
+<label x="39.37" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@6"/>
+<wire x1="281.94" y1="124.46" x2="203.2" y2="124.46" width="0.1534" layer="91"/>
+<label x="242.57" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@1"/>
+<wire x1="124.46" y1="160.02" x2="203.2" y2="160.02" width="0.1534" layer="91"/>
+<label x="163.83" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@1"/>
+<wire x1="327.66" y1="160.02" x2="406.4" y2="160.02" width="0.1534" layer="91"/>
+<label x="367.03" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@3" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@3"/>
+<wire x1="124.46" y1="149.86" x2="203.2" y2="149.86" width="0.1534" layer="91"/>
+<label x="163.83" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@3"/>
+<wire x1="327.66" y1="149.86" x2="406.4" y2="149.86" width="0.1534" layer="91"/>
+<label x="367.03" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@2"/>
+<wire x1="78.74" y1="149.86" x2="0" y2="149.86" width="0.1534" layer="91"/>
+<label x="39.37" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@2"/>
+<wire x1="281.94" y1="149.86" x2="203.2" y2="149.86" width="0.1534" layer="91"/>
+<label x="242.57" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_TXD" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_TXD"/>
+<wire x1="124.46" y1="99.06" x2="203.2" y2="99.06" width="0.1534" layer="91"/>
+<label x="163.83" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_TXD"/>
+<wire x1="327.66" y1="99.06" x2="406.4" y2="99.06" width="0.1534" layer="91"/>
+<label x="367.03" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@9" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@9"/>
+<wire x1="124.46" y1="121.92" x2="203.2" y2="121.92" width="0.1534" layer="91"/>
+<label x="163.83" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@9"/>
+<wire x1="327.66" y1="121.92" x2="406.4" y2="121.92" width="0.1534" layer="91"/>
+<label x="367.03" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@8" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@8"/>
+<wire x1="78.74" y1="121.92" x2="0" y2="121.92" width="0.1534" layer="91"/>
+<label x="39.37" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@8"/>
+<wire x1="281.94" y1="121.92" x2="203.2" y2="121.92" width="0.1534" layer="91"/>
+<label x="242.57" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AB" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="AB"/>
+<wire x1="124.46" y1="48.26" x2="203.2" y2="48.26" width="0.1534" layer="91"/>
+<label x="163.83" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="AB"/>
+<wire x1="327.66" y1="48.26" x2="406.4" y2="48.26" width="0.1534" layer="91"/>
+<label x="367.03" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SIZ0" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="SIZE_0"/>
+<wire x1="124.46" y1="147.32" x2="203.2" y2="147.32" width="0.1534" layer="91"/>
+<label x="163.83" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="SIZE_0"/>
+<wire x1="327.66" y1="147.32" x2="406.4" y2="147.32" width="0.1534" layer="91"/>
+<label x="367.03" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_CSYNC" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_CSYNC"/>
+<wire x1="78.74" y1="60.96" x2="0" y2="60.96" width="0.1534" layer="91"/>
+<label x="39.37" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_CSYNC"/>
+<wire x1="281.94" y1="60.96" x2="203.2" y2="60.96" width="0.1534" layer="91"/>
+<label x="242.57" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_RMC" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_RMC"/>
+<wire x1="124.46" y1="127" x2="203.2" y2="127" width="0.1534" layer="91"/>
+<label x="163.83" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_RMC"/>
+<wire x1="327.66" y1="127" x2="406.4" y2="127" width="0.1534" layer="91"/>
+<label x="367.03" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FC0" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="FC_0"/>
+<wire x1="78.74" y1="127" x2="0" y2="127" width="0.1534" layer="91"/>
+<label x="39.37" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="FC_0"/>
+<wire x1="281.94" y1="127" x2="203.2" y2="127" width="0.1534" layer="91"/>
+<label x="242.57" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FC1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="FC_1"/>
+<wire x1="124.46" y1="129.54" x2="203.2" y2="129.54" width="0.1534" layer="91"/>
+<label x="163.83" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="FC_1"/>
+<wire x1="327.66" y1="129.54" x2="406.4" y2="129.54" width="0.1534" layer="91"/>
+<label x="367.03" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FC2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="FC_2"/>
+<wire x1="78.74" y1="129.54" x2="0" y2="129.54" width="0.1534" layer="91"/>
+<label x="39.37" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="FC_2"/>
+<wire x1="281.94" y1="129.54" x2="203.2" y2="129.54" width="0.1534" layer="91"/>
+<label x="242.57" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@8" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@8"/>
+<wire x1="78.74" y1="165.1" x2="0" y2="165.1" width="0.1534" layer="91"/>
+<label x="39.37" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@8"/>
+<wire x1="281.94" y1="165.1" x2="203.2" y2="165.1" width="0.1534" layer="91"/>
+<label x="242.57" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@9" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@9"/>
+<wire x1="78.74" y1="132.08" x2="0" y2="132.08" width="0.1534" layer="91"/>
+<label x="39.37" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@9"/>
+<wire x1="281.94" y1="132.08" x2="203.2" y2="132.08" width="0.1534" layer="91"/>
+<label x="242.57" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="AGND"/>
+<wire x1="78.74" y1="35.56" x2="0" y2="35.56" width="0.1534" layer="91"/>
+<label x="39.37" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="AGND"/>
+<wire x1="281.94" y1="35.56" x2="203.2" y2="35.56" width="0.1534" layer="91"/>
+<label x="242.57" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DKWE" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DKWE"/>
+<wire x1="124.46" y1="93.98" x2="203.2" y2="93.98" width="0.1534" layer="91"/>
+<label x="163.83" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DKWE"/>
+<wire x1="327.66" y1="93.98" x2="406.4" y2="93.98" width="0.1534" layer="91"/>
+<label x="367.03" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@1"/>
+<wire x1="78.74" y1="254" x2="0" y2="254" width="0.1534" layer="91"/>
+<label x="39.37" y="254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@1"/>
+<wire x1="281.94" y1="254" x2="203.2" y2="254" width="0.1534" layer="91"/>
+<label x="242.57" y="254" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@2"/>
+<wire x1="78.74" y1="241.3" x2="0" y2="241.3" width="0.1534" layer="91"/>
+<label x="39.37" y="241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@2"/>
+<wire x1="281.94" y1="241.3" x2="203.2" y2="241.3" width="0.1534" layer="91"/>
+<label x="242.57" y="241.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@3" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@3"/>
+<wire x1="78.74" y1="228.6" x2="0" y2="228.6" width="0.1534" layer="91"/>
+<label x="39.37" y="228.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@3"/>
+<wire x1="281.94" y1="228.6" x2="203.2" y2="228.6" width="0.1534" layer="91"/>
+<label x="242.57" y="228.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@4" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@4"/>
+<wire x1="78.74" y1="215.9" x2="0" y2="215.9" width="0.1534" layer="91"/>
+<label x="39.37" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@4"/>
+<wire x1="281.94" y1="215.9" x2="203.2" y2="215.9" width="0.1534" layer="91"/>
+<label x="242.57" y="215.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@5" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@5"/>
+<wire x1="78.74" y1="203.2" x2="0" y2="203.2" width="0.1534" layer="91"/>
+<label x="39.37" y="203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@5"/>
+<wire x1="281.94" y1="203.2" x2="203.2" y2="203.2" width="0.1534" layer="91"/>
+<label x="242.57" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@6" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@6"/>
+<wire x1="78.74" y1="190.5" x2="0" y2="190.5" width="0.1534" layer="91"/>
+<label x="39.37" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@6"/>
+<wire x1="281.94" y1="190.5" x2="203.2" y2="190.5" width="0.1534" layer="91"/>
+<label x="242.57" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@7" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@7"/>
+<wire x1="78.74" y1="177.8" x2="0" y2="177.8" width="0.1534" layer="91"/>
+<label x="39.37" y="177.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@7"/>
+<wire x1="281.94" y1="177.8" x2="203.2" y2="177.8" width="0.1534" layer="91"/>
+<label x="242.57" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_DS" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_DS"/>
+<wire x1="124.46" y1="144.78" x2="203.2" y2="144.78" width="0.1534" layer="91"/>
+<label x="163.83" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_DS"/>
+<wire x1="327.66" y1="144.78" x2="406.4" y2="144.78" width="0.1534" layer="91"/>
+<label x="367.03" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_RESET" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_RESET"/>
+<wire x1="124.46" y1="111.76" x2="203.2" y2="111.76" width="0.1534" layer="91"/>
+<label x="163.83" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_RESET"/>
+<wire x1="327.66" y1="111.76" x2="406.4" y2="111.76" width="0.1534" layer="91"/>
+<label x="367.03" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_CPU_BG" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_CPU_BG"/>
+<wire x1="78.74" y1="116.84" x2="0" y2="116.84" width="0.1534" layer="91"/>
+<label x="39.37" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_CPU_BG"/>
+<wire x1="281.94" y1="116.84" x2="203.2" y2="116.84" width="0.1534" layer="91"/>
+<label x="242.57" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_RST" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_RST"/>
+<wire x1="78.74" y1="152.4" x2="0" y2="152.4" width="0.1534" layer="91"/>
+<label x="39.37" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_RST"/>
+<wire x1="281.94" y1="152.4" x2="203.2" y2="152.4" width="0.1534" layer="91"/>
+<label x="242.57" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="R_W" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="R_W"/>
+<wire x1="78.74" y1="142.24" x2="0" y2="142.24" width="0.1534" layer="91"/>
+<label x="39.37" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="R_W"/>
+<wire x1="281.94" y1="142.24" x2="203.2" y2="142.24" width="0.1534" layer="91"/>
+<label x="242.57" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AR" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="AR"/>
+<wire x1="124.46" y1="53.34" x2="203.2" y2="53.34" width="0.1534" layer="91"/>
+<label x="163.83" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="AR"/>
+<wire x1="327.66" y1="53.34" x2="406.4" y2="53.34" width="0.1534" layer="91"/>
+<label x="367.03" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_DKRD" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_DKRD"/>
+<wire x1="78.74" y1="96.52" x2="0" y2="96.52" width="0.1534" layer="91"/>
+<label x="39.37" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_DKRD"/>
+<wire x1="281.94" y1="96.52" x2="203.2" y2="96.52" width="0.1534" layer="91"/>
+<label x="242.57" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_CPU_BR" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_CPU_BR"/>
+<wire x1="78.74" y1="119.38" x2="0" y2="119.38" width="0.1534" layer="91"/>
+<label x="39.37" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_CPU_BR"/>
+<wire x1="281.94" y1="119.38" x2="203.2" y2="119.38" width="0.1534" layer="91"/>
+<label x="242.57" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D14" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D14"/>
+<wire x1="124.46" y1="187.96" x2="203.2" y2="187.96" width="0.1534" layer="91"/>
+<label x="163.83" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D14"/>
+<wire x1="327.66" y1="187.96" x2="406.4" y2="187.96" width="0.1534" layer="91"/>
+<label x="367.03" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D15" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D15"/>
+<wire x1="78.74" y1="187.96" x2="0" y2="187.96" width="0.1534" layer="91"/>
+<label x="39.37" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D15"/>
+<wire x1="281.94" y1="187.96" x2="203.2" y2="187.96" width="0.1534" layer="91"/>
+<label x="242.57" y="187.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D16" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D16"/>
+<wire x1="124.46" y1="193.04" x2="203.2" y2="193.04" width="0.1534" layer="91"/>
+<label x="163.83" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D16"/>
+<wire x1="327.66" y1="193.04" x2="406.4" y2="193.04" width="0.1534" layer="91"/>
+<label x="367.03" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D17" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D17"/>
+<wire x1="78.74" y1="193.04" x2="0" y2="193.04" width="0.1534" layer="91"/>
+<label x="39.37" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D17"/>
+<wire x1="281.94" y1="193.04" x2="203.2" y2="193.04" width="0.1534" layer="91"/>
+<label x="242.57" y="193.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_AS" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_AS"/>
+<wire x1="78.74" y1="144.78" x2="0" y2="144.78" width="0.1534" layer="91"/>
+<label x="39.37" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_AS"/>
+<wire x1="281.94" y1="144.78" x2="203.2" y2="144.78" width="0.1534" layer="91"/>
+<label x="242.57" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D11" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D11"/>
+<wire x1="78.74" y1="182.88" x2="0" y2="182.88" width="0.1534" layer="91"/>
+<label x="39.37" y="182.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D11"/>
+<wire x1="281.94" y1="182.88" x2="203.2" y2="182.88" width="0.1534" layer="91"/>
+<label x="242.57" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D12" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D12"/>
+<wire x1="124.46" y1="185.42" x2="203.2" y2="185.42" width="0.1534" layer="91"/>
+<label x="163.83" y="185.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D12"/>
+<wire x1="327.66" y1="185.42" x2="406.4" y2="185.42" width="0.1534" layer="91"/>
+<label x="367.03" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D13" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D13"/>
+<wire x1="78.74" y1="185.42" x2="0" y2="185.42" width="0.1534" layer="91"/>
+<label x="39.37" y="185.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D13"/>
+<wire x1="281.94" y1="185.42" x2="203.2" y2="185.42" width="0.1534" layer="91"/>
+<label x="242.57" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D18" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D18"/>
+<wire x1="124.46" y1="195.58" x2="203.2" y2="195.58" width="0.1534" layer="91"/>
+<label x="163.83" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D18"/>
+<wire x1="327.66" y1="195.58" x2="406.4" y2="195.58" width="0.1534" layer="91"/>
+<label x="367.03" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D19" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D19"/>
+<wire x1="78.74" y1="195.58" x2="0" y2="195.58" width="0.1534" layer="91"/>
+<label x="39.37" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D19"/>
+<wire x1="281.94" y1="195.58" x2="203.2" y2="195.58" width="0.1534" layer="91"/>
+<label x="242.57" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AG_EXT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="AG_EXT"/>
+<wire x1="78.74" y1="50.8" x2="0" y2="50.8" width="0.1534" layer="91"/>
+<label x="39.37" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="AG_EXT"/>
+<wire x1="281.94" y1="50.8" x2="203.2" y2="50.8" width="0.1534" layer="91"/>
+<label x="242.57" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_MUTE" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_MUTE"/>
+<wire x1="124.46" y1="81.28" x2="203.2" y2="81.28" width="0.1534" layer="91"/>
+<label x="163.83" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_MUTE"/>
+<wire x1="327.66" y1="81.28" x2="406.4" y2="81.28" width="0.1534" layer="91"/>
+<label x="367.03" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK17MHZ" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="17MHZ"/>
+<wire x1="78.74" y1="83.82" x2="0" y2="83.82" width="0.1534" layer="91"/>
+<label x="39.37" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="17MHZ"/>
+<wire x1="281.94" y1="83.82" x2="203.2" y2="83.82" width="0.1534" layer="91"/>
+<label x="242.57" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A31" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A31"/>
+<wire x1="78.74" y1="264.16" x2="0" y2="264.16" width="0.1534" layer="91"/>
+<label x="39.37" y="264.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A31"/>
+<wire x1="281.94" y1="264.16" x2="203.2" y2="264.16" width="0.1534" layer="91"/>
+<label x="242.57" y="264.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A30" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A30"/>
+<wire x1="124.46" y1="264.16" x2="203.2" y2="264.16" width="0.1534" layer="91"/>
+<label x="163.83" y="264.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A30"/>
+<wire x1="327.66" y1="264.16" x2="406.4" y2="264.16" width="0.1534" layer="91"/>
+<label x="367.03" y="264.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CCK_B" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="CCK_B"/>
+<wire x1="124.46" y1="60.96" x2="203.2" y2="60.96" width="0.1534" layer="91"/>
+<label x="163.83" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="CCK_B"/>
+<wire x1="327.66" y1="60.96" x2="406.4" y2="60.96" width="0.1534" layer="91"/>
+<label x="367.03" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IPL1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_IPL1"/>
+<wire x1="124.46" y1="162.56" x2="203.2" y2="162.56" width="0.1534" layer="91"/>
+<label x="163.83" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_IPL1"/>
+<wire x1="327.66" y1="162.56" x2="406.4" y2="162.56" width="0.1534" layer="91"/>
+<label x="367.03" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IPL0" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_IPL0"/>
+<wire x1="78.74" y1="160.02" x2="0" y2="160.02" width="0.1534" layer="91"/>
+<label x="39.37" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_IPL0"/>
+<wire x1="281.94" y1="160.02" x2="203.2" y2="160.02" width="0.1534" layer="91"/>
+<label x="242.57" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IPL2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_IPL2"/>
+<wire x1="78.74" y1="162.56" x2="0" y2="162.56" width="0.1534" layer="91"/>
+<label x="39.37" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_IPL2"/>
+<wire x1="281.94" y1="162.56" x2="203.2" y2="162.56" width="0.1534" layer="91"/>
+<label x="242.57" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@5" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@5"/>
+<wire x1="124.46" y1="203.2" x2="203.2" y2="203.2" width="0.1534" layer="91"/>
+<label x="163.83" y="203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@5"/>
+<wire x1="327.66" y1="203.2" x2="406.4" y2="203.2" width="0.1534" layer="91"/>
+<label x="367.03" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@4" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@4"/>
+<wire x1="124.46" y1="215.9" x2="203.2" y2="215.9" width="0.1534" layer="91"/>
+<label x="163.83" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@4"/>
+<wire x1="327.66" y1="215.9" x2="406.4" y2="215.9" width="0.1534" layer="91"/>
+<label x="367.03" y="215.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@7" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@7"/>
+<wire x1="124.46" y1="177.8" x2="203.2" y2="177.8" width="0.1534" layer="91"/>
+<label x="163.83" y="177.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@7"/>
+<wire x1="327.66" y1="177.8" x2="406.4" y2="177.8" width="0.1534" layer="91"/>
+<label x="367.03" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@6" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@6"/>
+<wire x1="124.46" y1="190.5" x2="203.2" y2="190.5" width="0.1534" layer="91"/>
+<label x="163.83" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@6"/>
+<wire x1="327.66" y1="190.5" x2="406.4" y2="190.5" width="0.1534" layer="91"/>
+<label x="367.03" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@1"/>
+<wire x1="124.46" y1="254" x2="203.2" y2="254" width="0.1534" layer="91"/>
+<label x="163.83" y="254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@1"/>
+<wire x1="327.66" y1="254" x2="406.4" y2="254" width="0.1534" layer="91"/>
+<label x="367.03" y="254" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@3" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@3"/>
+<wire x1="124.46" y1="228.6" x2="203.2" y2="228.6" width="0.1534" layer="91"/>
+<label x="163.83" y="228.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@3"/>
+<wire x1="327.66" y1="228.6" x2="406.4" y2="228.6" width="0.1534" layer="91"/>
+<label x="367.03" y="228.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@2"/>
+<wire x1="124.46" y1="241.3" x2="203.2" y2="241.3" width="0.1534" layer="91"/>
+<label x="163.83" y="241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@2"/>
+<wire x1="327.66" y1="241.3" x2="406.4" y2="241.3" width="0.1534" layer="91"/>
+<label x="367.03" y="241.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@9" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@9"/>
+<wire x1="124.46" y1="132.08" x2="203.2" y2="132.08" width="0.1534" layer="91"/>
+<label x="163.83" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@9"/>
+<wire x1="327.66" y1="132.08" x2="406.4" y2="132.08" width="0.1534" layer="91"/>
+<label x="367.03" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@8" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@8"/>
+<wire x1="124.46" y1="165.1" x2="203.2" y2="165.1" width="0.1534" layer="91"/>
+<label x="163.83" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@8"/>
+<wire x1="327.66" y1="165.1" x2="406.4" y2="165.1" width="0.1534" layer="91"/>
+<label x="367.03" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEFT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="LEFT"/>
+<wire x1="124.46" y1="33.02" x2="203.2" y2="33.02" width="0.1534" layer="91"/>
+<label x="163.83" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="LEFT"/>
+<wire x1="327.66" y1="33.02" x2="406.4" y2="33.02" width="0.1534" layer="91"/>
+<label x="367.03" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D29" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D29"/>
+<wire x1="78.74" y1="210.82" x2="0" y2="210.82" width="0.1534" layer="91"/>
+<label x="39.37" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D29"/>
+<wire x1="281.94" y1="210.82" x2="203.2" y2="210.82" width="0.1534" layer="91"/>
+<label x="242.57" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D28" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D28"/>
+<wire x1="124.46" y1="210.82" x2="203.2" y2="210.82" width="0.1534" layer="91"/>
+<label x="163.83" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D28"/>
+<wire x1="327.66" y1="210.82" x2="406.4" y2="210.82" width="0.1534" layer="91"/>
+<label x="367.03" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DA_DATA" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DA_DATA"/>
+<wire x1="78.74" y1="81.28" x2="0" y2="81.28" width="0.1534" layer="91"/>
+<label x="39.37" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DA_DATA"/>
+<wire x1="281.94" y1="81.28" x2="203.2" y2="81.28" width="0.1534" layer="91"/>
+<label x="242.57" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CPUCLK_A" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="CPUCLK_A"/>
+<wire x1="78.74" y1="134.62" x2="0" y2="134.62" width="0.1534" layer="91"/>
+<label x="39.37" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="CPUCLK_A"/>
+<wire x1="281.94" y1="134.62" x2="203.2" y2="134.62" width="0.1534" layer="91"/>
+<label x="242.57" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D21" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D21"/>
+<wire x1="78.74" y1="198.12" x2="0" y2="198.12" width="0.1534" layer="91"/>
+<label x="39.37" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D21"/>
+<wire x1="281.94" y1="198.12" x2="203.2" y2="198.12" width="0.1534" layer="91"/>
+<label x="242.57" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D20" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D20"/>
+<wire x1="124.46" y1="198.12" x2="203.2" y2="198.12" width="0.1534" layer="91"/>
+<label x="163.83" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D20"/>
+<wire x1="327.66" y1="198.12" x2="406.4" y2="198.12" width="0.1534" layer="91"/>
+<label x="367.03" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D23" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D23"/>
+<wire x1="78.74" y1="200.66" x2="0" y2="200.66" width="0.1534" layer="91"/>
+<label x="39.37" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D23"/>
+<wire x1="281.94" y1="200.66" x2="203.2" y2="200.66" width="0.1534" layer="91"/>
+<label x="242.57" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D22" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D22"/>
+<wire x1="124.46" y1="200.66" x2="203.2" y2="200.66" width="0.1534" layer="91"/>
+<label x="163.83" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D22"/>
+<wire x1="327.66" y1="200.66" x2="406.4" y2="200.66" width="0.1534" layer="91"/>
+<label x="367.03" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D25" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D25"/>
+<wire x1="78.74" y1="205.74" x2="0" y2="205.74" width="0.1534" layer="91"/>
+<label x="39.37" y="205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D25"/>
+<wire x1="281.94" y1="205.74" x2="203.2" y2="205.74" width="0.1534" layer="91"/>
+<label x="242.57" y="205.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D24" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D24"/>
+<wire x1="124.46" y1="205.74" x2="203.2" y2="205.74" width="0.1534" layer="91"/>
+<label x="163.83" y="205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D24"/>
+<wire x1="327.66" y1="205.74" x2="406.4" y2="205.74" width="0.1534" layer="91"/>
+<label x="367.03" y="205.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D27" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D27"/>
+<wire x1="78.74" y1="208.28" x2="0" y2="208.28" width="0.1534" layer="91"/>
+<label x="39.37" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D27"/>
+<wire x1="281.94" y1="208.28" x2="203.2" y2="208.28" width="0.1534" layer="91"/>
+<label x="242.57" y="208.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D26" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D26"/>
+<wire x1="124.46" y1="208.28" x2="203.2" y2="208.28" width="0.1534" layer="91"/>
+<label x="163.83" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D26"/>
+<wire x1="327.66" y1="208.28" x2="406.4" y2="208.28" width="0.1534" layer="91"/>
+<label x="367.03" y="208.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@12" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@12"/>
+<wire x1="78.74" y1="88.9" x2="0" y2="88.9" width="0.1534" layer="91"/>
+<label x="39.37" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@12"/>
+<wire x1="281.94" y1="88.9" x2="203.2" y2="88.9" width="0.1534" layer="91"/>
+<label x="242.57" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@13" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@13"/>
+<wire x1="78.74" y1="86.36" x2="0" y2="86.36" width="0.1534" layer="91"/>
+<label x="39.37" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@13"/>
+<wire x1="281.94" y1="86.36" x2="203.2" y2="86.36" width="0.1534" layer="91"/>
+<label x="242.57" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@10" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@10"/>
+<wire x1="78.74" y1="93.98" x2="0" y2="93.98" width="0.1534" layer="91"/>
+<label x="39.37" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@10"/>
+<wire x1="281.94" y1="93.98" x2="203.2" y2="93.98" width="0.1534" layer="91"/>
+<label x="242.57" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@11" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@11"/>
+<wire x1="78.74" y1="91.44" x2="0" y2="91.44" width="0.1534" layer="91"/>
+<label x="39.37" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@11"/>
+<wire x1="281.94" y1="91.44" x2="203.2" y2="91.44" width="0.1534" layer="91"/>
+<label x="242.57" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@16" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@16"/>
+<wire x1="78.74" y1="38.1" x2="0" y2="38.1" width="0.1534" layer="91"/>
+<label x="39.37" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@16"/>
+<wire x1="281.94" y1="38.1" x2="203.2" y2="38.1" width="0.1534" layer="91"/>
+<label x="242.57" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_EXT_AUDIO" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_EXT_AUDIO"/>
+<wire x1="124.46" y1="83.82" x2="203.2" y2="83.82" width="0.1534" layer="91"/>
+<label x="163.83" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_EXT_AUDIO"/>
+<wire x1="327.66" y1="83.82" x2="406.4" y2="83.82" width="0.1534" layer="91"/>
+<label x="367.03" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@14" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@14"/>
+<wire x1="78.74" y1="76.2" x2="0" y2="76.2" width="0.1534" layer="91"/>
+<label x="39.37" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@14"/>
+<wire x1="281.94" y1="76.2" x2="203.2" y2="76.2" width="0.1534" layer="91"/>
+<label x="242.57" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND@15" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="GND@15"/>
+<wire x1="78.74" y1="63.5" x2="0" y2="63.5" width="0.1534" layer="91"/>
+<label x="39.37" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="GND@15"/>
+<wire x1="281.94" y1="63.5" x2="203.2" y2="63.5" width="0.1534" layer="91"/>
+<label x="242.57" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_PUNT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_PUNT"/>
+<wire x1="78.74" y1="111.76" x2="0" y2="111.76" width="0.1534" layer="91"/>
+<label x="39.37" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_PUNT"/>
+<wire x1="281.94" y1="111.76" x2="203.2" y2="111.76" width="0.1534" layer="91"/>
+<label x="242.57" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_XCLKEN" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_XCLKEN"/>
+<wire x1="124.46" y1="43.18" x2="203.2" y2="43.18" width="0.1534" layer="91"/>
+<label x="163.83" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_XCLKEN"/>
+<wire x1="327.66" y1="43.18" x2="406.4" y2="43.18" width="0.1534" layer="91"/>
+<label x="367.03" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A20" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A20"/>
+<wire x1="124.46" y1="248.92" x2="203.2" y2="248.92" width="0.1534" layer="91"/>
+<label x="163.83" y="248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A20"/>
+<wire x1="327.66" y1="248.92" x2="406.4" y2="248.92" width="0.1534" layer="91"/>
+<label x="367.03" y="248.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A21" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A21"/>
+<wire x1="78.74" y1="248.92" x2="0" y2="248.92" width="0.1534" layer="91"/>
+<label x="39.37" y="248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A21"/>
+<wire x1="281.94" y1="248.92" x2="203.2" y2="248.92" width="0.1534" layer="91"/>
+<label x="242.57" y="248.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A22" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A22"/>
+<wire x1="124.46" y1="251.46" x2="203.2" y2="251.46" width="0.1534" layer="91"/>
+<label x="163.83" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A22"/>
+<wire x1="327.66" y1="251.46" x2="406.4" y2="251.46" width="0.1534" layer="91"/>
+<label x="367.03" y="251.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A23" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A23"/>
+<wire x1="78.74" y1="251.46" x2="0" y2="251.46" width="0.1534" layer="91"/>
+<label x="39.37" y="251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A23"/>
+<wire x1="281.94" y1="251.46" x2="203.2" y2="251.46" width="0.1534" layer="91"/>
+<label x="242.57" y="251.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A24" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A24"/>
+<wire x1="124.46" y1="256.54" x2="203.2" y2="256.54" width="0.1534" layer="91"/>
+<label x="163.83" y="256.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A24"/>
+<wire x1="327.66" y1="256.54" x2="406.4" y2="256.54" width="0.1534" layer="91"/>
+<label x="367.03" y="256.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A25" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A25"/>
+<wire x1="78.74" y1="256.54" x2="0" y2="256.54" width="0.1534" layer="91"/>
+<label x="39.37" y="256.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A25"/>
+<wire x1="281.94" y1="256.54" x2="203.2" y2="256.54" width="0.1534" layer="91"/>
+<label x="242.57" y="256.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A26" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A26"/>
+<wire x1="124.46" y1="259.08" x2="203.2" y2="259.08" width="0.1534" layer="91"/>
+<label x="163.83" y="259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A26"/>
+<wire x1="327.66" y1="259.08" x2="406.4" y2="259.08" width="0.1534" layer="91"/>
+<label x="367.03" y="259.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A27" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A27"/>
+<wire x1="78.74" y1="259.08" x2="0" y2="259.08" width="0.1534" layer="91"/>
+<label x="39.37" y="259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A27"/>
+<wire x1="281.94" y1="259.08" x2="203.2" y2="259.08" width="0.1534" layer="91"/>
+<label x="242.57" y="259.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A28" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A28"/>
+<wire x1="124.46" y1="261.62" x2="203.2" y2="261.62" width="0.1534" layer="91"/>
+<label x="163.83" y="261.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A28"/>
+<wire x1="327.66" y1="261.62" x2="406.4" y2="261.62" width="0.1534" layer="91"/>
+<label x="367.03" y="261.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A29" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A29"/>
+<wire x1="78.74" y1="261.62" x2="0" y2="261.62" width="0.1534" layer="91"/>
+<label x="39.37" y="261.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A29"/>
+<wire x1="281.94" y1="261.62" x2="203.2" y2="261.62" width="0.1534" layer="91"/>
+<label x="242.57" y="261.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_ACTIVE" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_ACTIVE"/>
+<wire x1="124.46" y1="101.6" x2="203.2" y2="101.6" width="0.1534" layer="91"/>
+<label x="163.83" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_ACTIVE"/>
+<wire x1="327.66" y1="101.6" x2="406.4" y2="101.6" width="0.1534" layer="91"/>
+<label x="367.03" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_VSYNC" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_VSYNC"/>
+<wire x1="124.46" y1="58.42" x2="203.2" y2="58.42" width="0.1534" layer="91"/>
+<label x="163.83" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_VSYNC"/>
+<wire x1="327.66" y1="58.42" x2="406.4" y2="58.42" width="0.1534" layer="91"/>
+<label x="367.03" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_BEER" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_BEER"/>
+<wire x1="124.46" y1="142.24" x2="203.2" y2="142.24" width="0.1534" layer="91"/>
+<label x="163.83" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_BEER"/>
+<wire x1="327.66" y1="142.24" x2="406.4" y2="142.24" width="0.1534" layer="91"/>
+<label x="367.03" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_EXT_VIDEO" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_EXT_VIDEO"/>
+<wire x1="124.46" y1="40.64" x2="203.2" y2="40.64" width="0.1534" layer="91"/>
+<label x="163.83" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_EXT_VIDEO"/>
+<wire x1="327.66" y1="40.64" x2="406.4" y2="40.64" width="0.1534" layer="91"/>
+<label x="367.03" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DA_LRCLK" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DA_LRCLK"/>
+<wire x1="78.74" y1="78.74" x2="0" y2="78.74" width="0.1534" layer="91"/>
+<label x="39.37" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DA_LRCLK"/>
+<wire x1="281.94" y1="78.74" x2="203.2" y2="78.74" width="0.1534" layer="91"/>
+<label x="242.57" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_EXP_BG" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_EXP_BG"/>
+<wire x1="124.46" y1="119.38" x2="203.2" y2="119.38" width="0.1534" layer="91"/>
+<label x="163.83" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_EXP_BG"/>
+<wire x1="327.66" y1="119.38" x2="406.4" y2="119.38" width="0.1534" layer="91"/>
+<label x="367.03" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_BLANK" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_BLANK"/>
+<wire x1="78.74" y1="66.04" x2="0" y2="66.04" width="0.1534" layer="91"/>
+<label x="39.37" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_BLANK"/>
+<wire x1="281.94" y1="66.04" x2="203.2" y2="66.04" width="0.1534" layer="91"/>
+<label x="242.57" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DI" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DI"/>
+<wire x1="124.46" y1="71.12" x2="203.2" y2="71.12" width="0.1534" layer="91"/>
+<label x="163.83" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DI"/>
+<wire x1="327.66" y1="71.12" x2="406.4" y2="71.12" width="0.1534" layer="91"/>
+<label x="367.03" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DG" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DG"/>
+<wire x1="124.46" y1="73.66" x2="203.2" y2="73.66" width="0.1534" layer="91"/>
+<label x="163.83" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DG"/>
+<wire x1="327.66" y1="73.66" x2="406.4" y2="73.66" width="0.1534" layer="91"/>
+<label x="367.03" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DB" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DB"/>
+<wire x1="78.74" y1="71.12" x2="0" y2="71.12" width="0.1534" layer="91"/>
+<label x="39.37" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DB"/>
+<wire x1="281.94" y1="71.12" x2="203.2" y2="71.12" width="0.1534" layer="91"/>
+<label x="242.57" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D30" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D30"/>
+<wire x1="124.46" y1="213.36" x2="203.2" y2="213.36" width="0.1534" layer="91"/>
+<label x="163.83" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D30"/>
+<wire x1="327.66" y1="213.36" x2="406.4" y2="213.36" width="0.1534" layer="91"/>
+<label x="367.03" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D31" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D31"/>
+<wire x1="78.74" y1="213.36" x2="0" y2="213.36" width="0.1534" layer="91"/>
+<label x="39.37" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D31"/>
+<wire x1="281.94" y1="213.36" x2="203.2" y2="213.36" width="0.1534" layer="91"/>
+<label x="242.57" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DR" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="DR"/>
+<wire x1="78.74" y1="73.66" x2="0" y2="73.66" width="0.1534" layer="91"/>
+<label x="39.37" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="DR"/>
+<wire x1="281.94" y1="73.66" x2="203.2" y2="73.66" width="0.1534" layer="91"/>
+<label x="242.57" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A15" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A15"/>
+<wire x1="78.74" y1="238.76" x2="0" y2="238.76" width="0.1534" layer="91"/>
+<label x="39.37" y="238.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A15"/>
+<wire x1="281.94" y1="238.76" x2="203.2" y2="238.76" width="0.1534" layer="91"/>
+<label x="242.57" y="238.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A14" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A14"/>
+<wire x1="124.46" y1="238.76" x2="203.2" y2="238.76" width="0.1534" layer="91"/>
+<label x="163.83" y="238.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A14"/>
+<wire x1="327.66" y1="238.76" x2="406.4" y2="238.76" width="0.1534" layer="91"/>
+<label x="367.03" y="238.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A17" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A17"/>
+<wire x1="78.74" y1="243.84" x2="0" y2="243.84" width="0.1534" layer="91"/>
+<label x="39.37" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A17"/>
+<wire x1="281.94" y1="243.84" x2="203.2" y2="243.84" width="0.1534" layer="91"/>
+<label x="242.57" y="243.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A16" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A16"/>
+<wire x1="124.46" y1="243.84" x2="203.2" y2="243.84" width="0.1534" layer="91"/>
+<label x="163.83" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A16"/>
+<wire x1="327.66" y1="243.84" x2="406.4" y2="243.84" width="0.1534" layer="91"/>
+<label x="367.03" y="243.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A11" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A11"/>
+<wire x1="78.74" y1="233.68" x2="0" y2="233.68" width="0.1534" layer="91"/>
+<label x="39.37" y="233.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A11"/>
+<wire x1="281.94" y1="233.68" x2="203.2" y2="233.68" width="0.1534" layer="91"/>
+<label x="242.57" y="233.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A10" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A10"/>
+<wire x1="124.46" y1="233.68" x2="203.2" y2="233.68" width="0.1534" layer="91"/>
+<label x="163.83" y="233.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A10"/>
+<wire x1="327.66" y1="233.68" x2="406.4" y2="233.68" width="0.1534" layer="91"/>
+<label x="367.03" y="233.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A13" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A13"/>
+<wire x1="78.74" y1="236.22" x2="0" y2="236.22" width="0.1534" layer="91"/>
+<label x="39.37" y="236.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A13"/>
+<wire x1="281.94" y1="236.22" x2="203.2" y2="236.22" width="0.1534" layer="91"/>
+<label x="242.57" y="236.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A12" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A12"/>
+<wire x1="124.46" y1="236.22" x2="203.2" y2="236.22" width="0.1534" layer="91"/>
+<label x="163.83" y="236.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A12"/>
+<wire x1="327.66" y1="236.22" x2="406.4" y2="236.22" width="0.1534" layer="91"/>
+<label x="367.03" y="236.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A19" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A19"/>
+<wire x1="78.74" y1="246.38" x2="0" y2="246.38" width="0.1534" layer="91"/>
+<label x="39.37" y="246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A19"/>
+<wire x1="281.94" y1="246.38" x2="203.2" y2="246.38" width="0.1534" layer="91"/>
+<label x="242.57" y="246.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A18" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A18"/>
+<wire x1="124.46" y1="246.38" x2="203.2" y2="246.38" width="0.1534" layer="91"/>
+<label x="163.83" y="246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A18"/>
+<wire x1="327.66" y1="246.38" x2="406.4" y2="246.38" width="0.1534" layer="91"/>
+<label x="367.03" y="246.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SIZ1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="SIZE_1"/>
+<wire x1="78.74" y1="147.32" x2="0" y2="147.32" width="0.1534" layer="91"/>
+<label x="39.37" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="SIZE_1"/>
+<wire x1="281.94" y1="147.32" x2="203.2" y2="147.32" width="0.1534" layer="91"/>
+<label x="242.57" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A1"/>
+<wire x1="78.74" y1="218.44" x2="0" y2="218.44" width="0.1534" layer="91"/>
+<label x="39.37" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A1"/>
+<wire x1="281.94" y1="218.44" x2="203.2" y2="218.44" width="0.1534" layer="91"/>
+<label x="242.57" y="218.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A0"/>
+<wire x1="124.46" y1="218.44" x2="203.2" y2="218.44" width="0.1534" layer="91"/>
+<label x="163.83" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A0"/>
+<wire x1="327.66" y1="218.44" x2="406.4" y2="218.44" width="0.1534" layer="91"/>
+<label x="367.03" y="218.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A3" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A3"/>
+<wire x1="78.74" y1="220.98" x2="0" y2="220.98" width="0.1534" layer="91"/>
+<label x="39.37" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A3"/>
+<wire x1="281.94" y1="220.98" x2="203.2" y2="220.98" width="0.1534" layer="91"/>
+<label x="242.57" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A2"/>
+<wire x1="124.46" y1="220.98" x2="203.2" y2="220.98" width="0.1534" layer="91"/>
+<label x="163.83" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A2"/>
+<wire x1="327.66" y1="220.98" x2="406.4" y2="220.98" width="0.1534" layer="91"/>
+<label x="367.03" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A5"/>
+<wire x1="78.74" y1="223.52" x2="0" y2="223.52" width="0.1534" layer="91"/>
+<label x="39.37" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A5"/>
+<wire x1="281.94" y1="223.52" x2="203.2" y2="223.52" width="0.1534" layer="91"/>
+<label x="242.57" y="223.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC@10" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="NC@10"/>
+<wire x1="78.74" y1="114.3" x2="0" y2="114.3" width="0.1534" layer="91"/>
+<label x="39.37" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="NC@10"/>
+<wire x1="281.94" y1="114.3" x2="203.2" y2="114.3" width="0.1534" layer="91"/>
+<label x="242.57" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A7" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A7"/>
+<wire x1="78.74" y1="226.06" x2="0" y2="226.06" width="0.1534" layer="91"/>
+<label x="39.37" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A7"/>
+<wire x1="281.94" y1="226.06" x2="203.2" y2="226.06" width="0.1534" layer="91"/>
+<label x="242.57" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A6" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A6"/>
+<wire x1="124.46" y1="226.06" x2="203.2" y2="226.06" width="0.1534" layer="91"/>
+<label x="163.83" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A6"/>
+<wire x1="327.66" y1="226.06" x2="406.4" y2="226.06" width="0.1534" layer="91"/>
+<label x="367.03" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A9" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A9"/>
+<wire x1="78.74" y1="231.14" x2="0" y2="231.14" width="0.1534" layer="91"/>
+<label x="39.37" y="231.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A9"/>
+<wire x1="281.94" y1="231.14" x2="203.2" y2="231.14" width="0.1534" layer="91"/>
+<label x="242.57" y="231.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A8" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="A8"/>
+<wire x1="124.46" y1="231.14" x2="203.2" y2="231.14" width="0.1534" layer="91"/>
+<label x="163.83" y="231.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="A8"/>
+<wire x1="327.66" y1="231.14" x2="406.4" y2="231.14" width="0.1534" layer="91"/>
+<label x="367.03" y="231.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_DSACK_0" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_DSACK_0"/>
+<wire x1="124.46" y1="137.16" x2="203.2" y2="137.16" width="0.1534" layer="91"/>
+<label x="163.83" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_DSACK_0"/>
+<wire x1="327.66" y1="137.16" x2="406.4" y2="137.16" width="0.1534" layer="91"/>
+<label x="367.03" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_DSACK_1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_DSACK_1"/>
+<wire x1="78.74" y1="137.16" x2="0" y2="137.16" width="0.1534" layer="91"/>
+<label x="39.37" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_DSACK_1"/>
+<wire x1="281.94" y1="137.16" x2="203.2" y2="137.16" width="0.1534" layer="91"/>
+<label x="242.57" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AR_EXT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="AR_EXT"/>
+<wire x1="78.74" y1="53.34" x2="0" y2="53.34" width="0.1534" layer="91"/>
+<label x="39.37" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="AR_EXT"/>
+<wire x1="281.94" y1="53.34" x2="203.2" y2="53.34" width="0.1534" layer="91"/>
+<label x="242.57" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AG" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="AG"/>
+<wire x1="124.46" y1="50.8" x2="203.2" y2="50.8" width="0.1534" layer="91"/>
+<label x="163.83" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="AG"/>
+<wire x1="327.66" y1="50.8" x2="406.4" y2="50.8" width="0.1534" layer="91"/>
+<label x="367.03" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AB_EXT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="AB_EXT"/>
+<wire x1="78.74" y1="48.26" x2="0" y2="48.26" width="0.1534" layer="91"/>
+<label x="39.37" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="AB_EXT"/>
+<wire x1="281.94" y1="48.26" x2="203.2" y2="48.26" width="0.1534" layer="91"/>
+<label x="242.57" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_HSYNC" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_HSYNC"/>
+<wire x1="78.74" y1="58.42" x2="0" y2="58.42" width="0.1534" layer="91"/>
+<label x="39.37" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_HSYNC"/>
+<wire x1="281.94" y1="58.42" x2="203.2" y2="58.42" width="0.1534" layer="91"/>
+<label x="242.57" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="_PIXELSW" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="_PIXELSW"/>
+<wire x1="124.46" y1="68.58" x2="203.2" y2="68.58" width="0.1534" layer="91"/>
+<label x="163.83" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="_PIXELSW"/>
+<wire x1="327.66" y1="68.58" x2="406.4" y2="68.58" width="0.1534" layer="91"/>
+<label x="367.03" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RIGHT" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="RIGHT"/>
+<wire x1="124.46" y1="30.48" x2="203.2" y2="30.48" width="0.1534" layer="91"/>
+<label x="163.83" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="RIGHT"/>
+<wire x1="327.66" y1="30.48" x2="406.4" y2="30.48" width="0.1534" layer="91"/>
+<label x="367.03" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@11" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@11"/>
+<wire x1="124.46" y1="76.2" x2="203.2" y2="76.2" width="0.1534" layer="91"/>
+<label x="163.83" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@11"/>
+<wire x1="327.66" y1="76.2" x2="406.4" y2="76.2" width="0.1534" layer="91"/>
+<label x="367.03" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@13" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@13"/>
+<wire x1="124.46" y1="38.1" x2="203.2" y2="38.1" width="0.1534" layer="91"/>
+<label x="163.83" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@13"/>
+<wire x1="327.66" y1="38.1" x2="406.4" y2="38.1" width="0.1534" layer="91"/>
+<label x="367.03" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC@12" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="VCC@12"/>
+<wire x1="124.46" y1="63.5" x2="203.2" y2="63.5" width="0.1534" layer="91"/>
+<label x="163.83" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="VCC@12"/>
+<wire x1="327.66" y1="63.5" x2="406.4" y2="63.5" width="0.1534" layer="91"/>
+<label x="367.03" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D8" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D8"/>
+<wire x1="124.46" y1="180.34" x2="203.2" y2="180.34" width="0.1534" layer="91"/>
+<label x="163.83" y="180.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D8"/>
+<wire x1="327.66" y1="180.34" x2="406.4" y2="180.34" width="0.1534" layer="91"/>
+<label x="367.03" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D9" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D9"/>
+<wire x1="78.74" y1="180.34" x2="0" y2="180.34" width="0.1534" layer="91"/>
+<label x="39.37" y="180.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D9"/>
+<wire x1="281.94" y1="180.34" x2="203.2" y2="180.34" width="0.1534" layer="91"/>
+<label x="242.57" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D6" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D6"/>
+<wire x1="124.46" y1="175.26" x2="203.2" y2="175.26" width="0.1534" layer="91"/>
+<label x="163.83" y="175.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D6"/>
+<wire x1="327.66" y1="175.26" x2="406.4" y2="175.26" width="0.1534" layer="91"/>
+<label x="367.03" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D7" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D7"/>
+<wire x1="78.74" y1="175.26" x2="0" y2="175.26" width="0.1534" layer="91"/>
+<label x="39.37" y="175.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D7"/>
+<wire x1="281.94" y1="175.26" x2="203.2" y2="175.26" width="0.1534" layer="91"/>
+<label x="242.57" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D4" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D4"/>
+<wire x1="124.46" y1="172.72" x2="203.2" y2="172.72" width="0.1534" layer="91"/>
+<label x="163.83" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D4"/>
+<wire x1="327.66" y1="172.72" x2="406.4" y2="172.72" width="0.1534" layer="91"/>
+<label x="367.03" y="172.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D5" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D5"/>
+<wire x1="78.74" y1="172.72" x2="0" y2="172.72" width="0.1534" layer="91"/>
+<label x="39.37" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D5"/>
+<wire x1="281.94" y1="172.72" x2="203.2" y2="172.72" width="0.1534" layer="91"/>
+<label x="242.57" y="172.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D2" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D2"/>
+<wire x1="124.46" y1="170.18" x2="203.2" y2="170.18" width="0.1534" layer="91"/>
+<label x="163.83" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D2"/>
+<wire x1="327.66" y1="170.18" x2="406.4" y2="170.18" width="0.1534" layer="91"/>
+<label x="367.03" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D3" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D3"/>
+<wire x1="78.74" y1="170.18" x2="0" y2="170.18" width="0.1534" layer="91"/>
+<label x="39.37" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D3"/>
+<wire x1="281.94" y1="170.18" x2="203.2" y2="170.18" width="0.1534" layer="91"/>
+<label x="242.57" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D0" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D0"/>
+<wire x1="124.46" y1="167.64" x2="203.2" y2="167.64" width="0.1534" layer="91"/>
+<label x="163.83" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D0"/>
+<wire x1="327.66" y1="167.64" x2="406.4" y2="167.64" width="0.1534" layer="91"/>
+<label x="367.03" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D1" class="0">
+<segment>
+<pinref part="CN1" gate="CD32_EXPANSION" pin="D1"/>
+<wire x1="78.74" y1="167.64" x2="0" y2="167.64" width="0.1534" layer="91"/>
+<label x="39.37" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="CD32_EXPANSION" pin="D1"/>
+<wire x1="281.94" y1="167.64" x2="203.2" y2="167.64" width="0.1534" layer="91"/>
+<label x="242.57" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+</nets>
 </sheet>
 </sheets>
 </schematic>
