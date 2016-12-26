@@ -14,6 +14,10 @@ You may get any PCB manufacturer to produce the board for you. The board is 2-la
 
 http://dirtypcbs.com/view.php?share=28380&accesskey=9c851266aeee43fccca2846767b09b1c
 
+* CD32 - MCA-182 Breakout
+
+Work in Progress
+
 * Libraries
 
 The terriblefire.lbr file contains the following parts :-
