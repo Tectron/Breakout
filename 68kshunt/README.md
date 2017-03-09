@@ -1,3 +1,3 @@
 # 68k Shunt
 
-![Image of Top of PCB](top.png)
+![Image of Top of PCB](images/top.png)
